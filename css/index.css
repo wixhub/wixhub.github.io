@@ -1,19 +1,53 @@
 /* GLOBAL STYLES */
-html{
-    min-height: 100%;
+html {
     overflow: hidden;
+    background-color: #FFC373;
 }
 
 body {
+    font-size: 26px;
     display: flex;
     justify-content: center;
 }
 
 .canvas {
-    position: relative;
-    border: blue 1px solid;
-    width: 200px;
-    height: 300px;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.card {
+    margin: auto;
+    width: 230px;
+    padding: 20px;
+    min-width: 230px;
+    min-height: 380px;
+}
+
+/* MENU */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #66A3D2;
+    border-radius: 9px;
+    border: 0;
+}
+  
+li a {
+    display: block;
+    width: 94px;
+    padding-left: 2px;
+    padding-bottom: 1px;
+    color: #A62F00;
+    font-size: 75%;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #033E6B;
+    color: white;
 }
 
 /* SPECIFIC STYLES */
@@ -26,24 +60,19 @@ body {
 }
 
 .space1 {
-    width: 44px;
+    width: 63px;
 }
+
 .space2 {
-    width: 12px;
-}
-.space3 {
-    width: 18px;
-}
-.space4 {
-    width: 22px;
+    width: 1px;
 }
 
 .vertiсal { 
     width: 1ch; 
     text-align: center; 
-    color: red; 
-    font-size: 160%; 
-    font-family: monospace; 
+    font-family: monospace;
+    color: #FF4900; 
+    font-size: 120%; 
     word-wrap: break-word;
 }
 
@@ -60,13 +89,6 @@ body {
     animation: 
     typing1 1s steps(4, end),
     blink-caret 1s step-end forwards;
-}
-
-.typewriter1:after {
-    content: '\058E';
-    color: orange;
-    font-size: 100%;
-    vertical-align: text-bottom;
 }
 
 .typewriter2 {
@@ -87,11 +109,12 @@ body {
 
 .typewriter1::first-letter
 {
-    color: orange;
+    color: #FF9200;
 }
+
 .typewriter2::first-letter
 {
-    color: orange;
+    color: #FF9200;
 }
 
 /* The typing effect */
@@ -115,6 +138,7 @@ body {
 }
 
 .go_AVA {
+    padding-left: 3px;
     animation: 
     go-AVA 1s linear forwards,
     blink-AVA .5s linear forwards;
@@ -130,29 +154,31 @@ body {
     }
 }
 
-.go_DATA {
+.go_MENU {
     animation: 
-    go-DATA 1s linear forwards,
+    go-DATA 2s linear forwards,
     blink-DATA .5s linear forwards;
 }
 
 @keyframes go-DATA {
-    0% {
+    0%, 60% {
         opacity: 0;
-        transform: translateY(-105px);
+    }
+    70%, 90% {
+        opacity: 0.5;
     }
     100% {
-        transform: none;
+        opacity: 0.9;
     }
 }
 
-.go_EV {
+.go_DEV {
     animation: 
-    go-EV 1s linear forwards,
-    blink-EV .5s linear forwards;
+    go-DEV 1s linear forwards,
+    blink-DEV .5s linear forwards;
 }
 
-@keyframes go-EV {
+@keyframes go-DEV {
     0% {
         opacity: 0;
         transform: translateY(-105px);
@@ -161,24 +187,9 @@ body {
         transform: none;
     }
 }
-.go_C {
-    color: #ffa500;
-    font-size: 140%;
-    animation: 
-    go-C 1s linear forwards,
-    blink-C .5s linear forwards;
-}
 
-@keyframes go-C {
-    0% {
-        opacity: 0;
-        transform: translateY(-105px);
-    }
-    100% {
-        transform: none;
-    }
-}
 .go_CRIPT {
+    padding-left: 3px;
     animation: 
     go-CRIPT 1s linear forwards,
     blink-CRIPT .5s linear forwards;
@@ -193,13 +204,13 @@ body {
         transform: none;
     }
 }
-.go_L {
+.go_LOPER {
     animation: 
-    go-L 1s linear forwards,
-    blink-L .5s linear forwards;
+    go-LOPER 1s linear forwards,
+    blink-LOPER .5s linear forwards;
 }
 
-@keyframes go-L {
+@keyframes go-LOPER {
     0% {
         opacity: 0;
         transform: translateY(-105px);
@@ -208,21 +219,7 @@ body {
         transform: none;
     }
 }
-.go_N {
-    animation: 
-    go-N 1s linear forwards,
-    blink-N .5s linear forwards;
-}
 
-@keyframes go-N {
-    0% {
-        opacity: 0;
-        transform: translateY(-105px);
-    }
-    100% {
-        transform: none;
-    }
-}
 .go_PORTAL {
     animation: 
     go-PORTAL 1s linear forwards,
@@ -238,21 +235,7 @@ body {
         transform: none;
     }
 }
-.go_PER {
-    animation: 
-    go-PER 1s linear forwards,
-    blink-PER .5s linear forwards;
-}
 
-@keyframes go-PER {
-    0% {
-        opacity: 0;
-        transform: translateY(-105px);
-    }
-    100% {
-        transform: none;
-    }
-}
 .go_ACT {
     animation: 
     go-ACT 1s linear forwards,
@@ -300,7 +283,7 @@ body {
     font-family: monospace bold;
 }
 
-.contact:after {
+.contact::after {
     content: '\2709';
     color: orange;
     font-size: 120%;

@@ -1,0 +1,71 @@
+* {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #238D43;
+    font-family: 'Gill Sans', 'Oxygen', sans-serif;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 10px;
+}
+
+h1, h2, h3, address {
+    padding-top: 5px;
+    text-align: center;
+    font: italic;
+}
+
+h4 {
+    padding-top: 5px;
+    color: #50b371;
+    font-size: 80%;
+}
+
+/* MENU */
+nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline;
+}
+  
+nav li a {
+    padding: 2px 5px 2px 5px;
+    color: #A62F00;
+    font-size: 80%;
+    text-decoration: none;
+    background-color: #66A3D2;
+    border-radius: 9px;
+    border: 0;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+    background-color: #033E6B;
+    color: white;
+}
+
+.profil {
+    text-align: center;
+}
+
+.position {
+    font-weight: bold;
+    color: #0ba8d4;
+}
