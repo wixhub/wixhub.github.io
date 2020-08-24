@@ -17,6 +17,21 @@ section {
     padding: 10px;
 }
 
+.page404 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.page404 p {
+    padding: 20px;
+}
+
+.page404 p a{
+    color: gold;
+}
+
+
 h1, h2, h3, address {
     padding-top: 5px;
     text-align: center;
