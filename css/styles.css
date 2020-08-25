@@ -8,7 +8,6 @@ body {
     color: #fff;
     background-color: #238D43;
     font-family: 'Gill Sans', 'Oxygen', sans-serif;
-    padding: 20px;
     width: 80%;
     margin: auto;
 }
@@ -17,9 +16,23 @@ section {
     padding: 10px;
 }
 
-.page404 {
+section .page404, .single {
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.single h3 {
+    padding: 30px;
+}
+
+.page404, .single {
     padding: 20px;
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -27,8 +40,9 @@ section {
     padding: 20px;
 }
 
-.page404 p a{
+.page404, .single p a {
     color: gold;
+    text-decoration: none;
 }
 
 

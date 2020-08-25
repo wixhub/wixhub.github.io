@@ -1,47 +1,50 @@
 /* GLOBAL STYLES */
-html {
-    overflow: hidden;
+body {
     background-color: #FFC373;
 }
 
-body {
-    font-size: 26px;
-    display: flex;
-    justify-content: center;
-}
-
-.canvas {
-    margin: auto;
-    width: 80%;
-    padding: 20px;
+section {
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .card {
-    margin: auto;
-    width: 230px;
-    padding: 20px;
-    min-width: 230px;
-    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    min-height: 400px;
 }
 
 /* MENU */
 ul {
     list-style-type: none;
+    text-align: center; 
     margin: 0;
     padding: 0;
-    background-color: #66A3D2;
-    border-radius: 9px;
     border: 0;
 }
   
 li a {
     display: block;
-    width: 94px;
-    padding-left: 2px;
-    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     color: #A62F00;
-    font-size: 75%;
+    font-size: 1em;
     text-decoration: none;
+    background-color: #66A3D2;
+    border-radius: 9px;
+    border: 0;
 }
 
 /* Change the link color on hover */
@@ -52,7 +55,7 @@ li a:hover {
 
 /* SPECIFIC STYLES */
 .cell {
-    position: relative;
+    width: 281px;
 }
 
 .line1 {
@@ -60,11 +63,13 @@ li a:hover {
 }
 
 .space1 {
-    width: 63px;
+    padding-left: 7px;
+    padding-right: 94px;
 }
 
 .space2 {
-    width: 1px;
+    padding-left: 0px;
+    padding-right: 10px;
 }
 
 .vertiсal { 
@@ -72,15 +77,16 @@ li a:hover {
     text-align: center; 
     font-family: monospace;
     color: #FF4900; 
-    font-size: 120%; 
+    font-size: 2.2em; 
     word-wrap: break-word;
 }
 
 .typewriter1 {
     position: relative;
+    text-align: left;
     color: brown;
     font-family: monospace bold;
-    font-size: 160%;
+    font-size: 3.2em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 2px solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -92,10 +98,11 @@ li a:hover {
 }
 
 .typewriter2 {
+    text-align: left;
     position: relative;
     color: brown;
     font-family: monospace bold;
-    font-size: 160%;
+    font-size: 3.2em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 2px solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -138,7 +145,6 @@ li a:hover {
 }
 
 .go_AVA {
-    padding-left: 3px;
     animation: 
     go-AVA 1s linear forwards,
     blink-AVA .5s linear forwards;
@@ -189,7 +195,6 @@ li a:hover {
 }
 
 .go_CRIPT {
-    padding-left: 3px;
     animation: 
     go-CRIPT 1s linear forwards,
     blink-CRIPT .5s linear forwards;
@@ -204,6 +209,7 @@ li a:hover {
         transform: none;
     }
 }
+
 .go_LOPER {
     animation: 
     go-LOPER 1s linear forwards,
@@ -259,77 +265,16 @@ li a:hover {
     50% { border-color: orange }
 }
 
-.data {
-    position: relative;
-    font-size: 120%;
-    letter-spacing: 4px;
-    color: brown;
-    font-family: monospace bold;
-}
-
-.data:after {
-    content: '\2615';
-    font-size: 85%;
-}
-
-.portal {
-    width: 8ch;
-    position: relative;
-    font-size: 140%;
-    letter-spacing: 10px;
-    color: brown;
-    white-space: nowrap;
-    text-align: justify;
-    font-family: monospace bold;
-}
-
 .contact::after {
     content: '\2709';
     color: orange;
-    font-size: 120%;
+    font-size: 1.2em;
     animation: 
     go-contact 1s linear forwards,
     blink-contact .5s linear forwards;
 }
 
 @keyframes go-contact {
-    0% {
-        opacity: 0;
-        transform: translateY(-105px);
-    }
-    100% {
-        transform: none;
-    }
-}
-
-.question:after {
-    content: '\2753';
-    color: orange;
-    font-size: 90%;
-    animation: 
-    go-question 1s linear forwards,
-    blink-question .5s linear forwards;
-}
-
-@keyframes go-question {
-    0% {
-        opacity: 0;
-        transform: translateY(-105px);
-    }
-    100% {
-        transform: none;
-    }
-}
-
-.projects:after {
-    content: '\2728';
-    font-size: 90%;
-    animation: 
-    go-projects 1s linear forwards,
-    blink-projects .5s linear forwards;
-}
-
-@keyframes go-projects {
     0% {
         opacity: 0;
         transform: translateY(-105px);
