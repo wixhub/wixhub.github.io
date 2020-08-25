@@ -10,7 +10,9 @@ section {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    min-width: 280px;
+    min-height: 400px;
 }
 
 .card {
@@ -18,10 +20,6 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 320px;
-    min-height: 400px;
 }
 
 /* MENU */
