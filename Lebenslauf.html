@@ -1,107 +1,218 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset='utf-8'>
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Jana Semenova Lebenslauf</title>
-	<link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>
-</head>
+    <title>Jana Semenova Lebenslauf</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-	<h3>Lebenslauf</h3>
-	<h1>Jana Semenova</h1>
-	<nav>
-		<ul>
-			<li><a class="contact" href="mailto:jana.semenova@gmx.de">E-Mail: jana.semenova (at) gmx.de</a></li>
-			<li><a href="skype:yanasemenova?chat">Skype</a></li>
-			<li><a href="https://www.xing.com/profile/Jana_Semenova2/cv" target="_blank">XING</a></li>
-			<li><a href="https://www.linkedin.com/in/jana-semenova-b29555112" target="_blank">LinkedIN</a></li>
-			<li><a href="https://github.com/wixhub" target="_blank">GitHub</a></li>
-			<li><a href="CV.html" target="_blank">CV Englisch</a></li>
-		</ul>
-	</nav>
-	<section>
-		<h3>Mein Profil ~ Web Entwicklung</h3>
-		<div class="profil">
-			<ul>
-				<li>Frontend ~ Javascript & CSS3 & HTML5 Animation</li>
-				<li>Backend ~ Node.js, SQL, C#</li>
-			</ul>
-		</div>
-		</br>
-		<hr>
-	</section>
-	<section>
-		<h1>Studium</h1>
-		<h4>09.2008 – 06.2010</h4>
-		<p>Staatliche Technische N.E.Baumann Universität, Moskau, RU</p>
-		<p><span class="position">Magister der Technik und Technologie</span> Informatik und Computertechnik, Grade A</p>
-		<h4>09.2002 – 06.2004</h4>
-		<p>Staatliche Technische N.E.Baumann Universität, Moskau, RU</p>
-		<p><span class="position">Bachelor der Technik und Technologie</span> Automatisierung und Steuerung, Grade A</p>
-		<h4>09.1997 – 06.2001</h4>
-		<p>Erste Staatliche I.M.Setschenow Medizin Universität, Moskau, RU</p>
-		<p>Abschluss: Manager der Krankenpflege, Grade A</p>
-		<h3>Weiterbildung in der Volkshochschule Friedrichshafen, DE</h3>
-		<h4>09.2019 – 02.2020</h4>
-		<p>Berufsbezogenes Deutsch B2</p>
-		<h4>09.2018 – 07.2019</h4>
-		<p>Integrationskurs B1, Leben in Deutschland</p>
-		</br>
-		<hr>
-	</section>
-	<section> 
-		<h1>Arbeitserfahrung</h1>
-		<h4>02.2015 – 12.2017</h4>
-		<p><span class="position">E-Learning Entwickler</span> bei 1.Staatliche I.M.Setschenow Medizin Universität</p>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+    
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Jana Semenova</h1></a>
+            <p>
+              <span>Lebenslauf</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="hidden-xs">
+              <a href="mailto:jana.semenova@gmx.de">
+                <span class="glyphicon glyphicon-pencil"></span><br class="hidden-xs"> E-mail</a>
+            </li>
+            <li class="hidden-xs">
+              <a href="skype:yanasemenova">
+                <span class="glyphicon glyphicon-phone"></span><br class="hidden-xs"> Skype</a>
+            </li>
+            <li>
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Webkarte</a>
+            </li>
+            <li>
+              <a href="https://www.xing.com/profile/Jana_Semenova2/cv">
+                <span class="glyphicon glyphicon-briefcase"></span><br class="hidden-xs"> XING</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/jana-semenova-b29555112">
+                <span class="glyphicon glyphicon-credit-card"></span><br class="hidden-xs"> LinkedIN</a>
+            </li>
+            <li>
+              <a href="https://github.com/wixhub">
+                <span class="glyphicon glyphicon-equalizer"></span><br class="hidden-xs"> GitHub Blick</a>
+            </li>
+            <li>
+              <a href="CV.html">
+                <span class="glyphicon glyphicon-file"></span><br class="hidden-xs"> CV Englisch</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <div id="xs-deliver" class="text-center visible-xs">E-mail: </div>
+    <a class="btn" href="mailto:jana.semenova@gmx.de"><span class="glyphicon glyphicon-envelope"></span> jana.semenova<span class="glyphicon glyphicon-music">gmx.de</a>
+  </div>
+
+  <div id="call-btn" class="visible-xs">
+    <div id="xs-deliver" class="text-center visible-xs">Skype: </div>
+    <a class="btn" href="skype:yanasemenova">
+    <span class="glyphicon glyphicon-phone"></span>
+    yanasemenova
+    </a>
+  </div>
+
+  <div id="main-content" class="container">
+    <div id="home-tiles" class="row profil">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+            <span>Mein Profil</span>
+            <a href="index.html"></a><h3>Web Entwicklung</h3></a>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+          <ul>
+            <li>Frontend ~ Javascript & CSS3 & HTML5 
+              <a href="animation_list.html" target="_blank">
+                <span class="glyphicon glyphicon-new-window"></span> Animation Liste </a>
+              </li>
+            <li>Backend ~ Node.js / SQL / C# 
+              <a href="script_list.html" target="_blank">
+                <span class="glyphicon glyphicon-link"></span> Script Liste </a></li>
+          </ul>
+      </div>
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h3>Studium</h3>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h5>09.2008 – 06.2010</h5>
+        <ul>
+          <li>Staatliche Technische N.E.Baumann Universität, Moskau, RU</li>
+          <li><span class = "position">Master of Science in Informatik</span> ~ Informatik und Computertechnik, Grade A </li>
+        </ul>
+        <h5> 09.2002 - 06.2004 </h5>
+        <ul>
+          <li>State Technical University of N.E. Baumann, Moscow, RU</li>
+          <li><span class = "position">Bachelor of Science in Informatik</span> ~ Automatisierung und Steuerung, Grade A</li>
+        </ul>
+        <h5> 09.1997 - 06.2001 </h5>
+        <ul>
+          <li>Erste Staatliche I.M.Setschenow Medizin Universität, Moskau, RU</li>
+          <li>Abschluss: Manager der Krankenpflege, Grade A</li>
+        </ul>
+      </div>
+    </div><!-- End of #home-tiles -->
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h4>Weiterbildung</h4>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h5> 09.2019 - 02.2020 </h5>
+        <ul>
+          <li>Berufsbezogenes Deutsch B2 Kurs in der Volkshochschule Friedrichshafen, DE</li>
+        </ul>
+        <h5> 09.2018 - 07.2019 </h5>
+        <ul>
+          <li>Integrationskurs B1, Kurs Leben in Deutschland in der Volkshochschule Friedrichshafen, DE </li>
+        </ul>
+      </div>
+    </div><!-- End of #home-tiles -->
+    <hr>
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h3>Arbeitserfahrung</h3>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <h5>02.2015 – 12.2017</h5>
+        <p> <span class = "position"> E-Learning Entwicklerin </span> bei 1.Staatliche I.M.Setschenow Medizin Universität</p>
 		<p> und 09.2015 – 11.2016 Staatliche Pädagogische Universität, Moskau</p>
-		<ul>
-			<li>Entwicklung, koordinieren und begleiten E-Learning</li>
-			<li>LMS Moodle, HTML, CSS, Javascript, PHP, MySQL</li>
-		</ul>
-		<h4>09.2010 – 07.2011</h4>
-		<p><span class="position">Softwareentwickler</span> bei UC RUSAL, Moskau</p>
-		<ul>
+        <ul>
+			<li> Entwicklung, koordinieren und begleiten E-Learning</li>
+			<li> LMS Moodle, HTML, CSS, Javascript, PHP, MySQL</li>
+        </ul>
+        <h5> 09.2010 - 07.2011 </h5>
+        <p> <span class = "position"> Softwareentwicklerin </span> bei UC RUSAL, Moskau </p>
+        <ul>
 			<li>Implementierung der Geschäftslogik</li>
 			<li>VBScript, SQL, Datenaustausch mit Modulen SAP</li>
-		</ul>
-		<h4>11.2007 – 05.2009</h4>
-		<p><span class="position">Webentwickler</span> bei Virtuelle Technologien in der Bildung (E-Learning), Moskau</p>
-		<ul>
-			<li>Entwicklung von Webanwendungen für SCORM-Kursdesigner</li>
-			<li>Javascript, jQuery, AJAX, CSS, C#, ASP.NET, MS SQL 2008</li>
-		</ul>
-		<h4>04.2007 – 11.2007</h4> 
-		<p><span class="position">Softwareentwickler</span> bei Aelita Software Corporation (DELL Software), Moskau</p>
-		<ul>
-			<li>Entwickeln Webanwendungen Active Directory Administrator</li>
-			<li>C#, ASP.NET Web Services</li>
-		</ul>
-		<h4>07.2006 – 03.2007</h4>
-		<p><span class="position">Softwareentwickler</span> bei Bell Integrator, Moskau</p>
-		<ul>
-			<li>Entwicklung von Sicherheitssystemen vor Beeline</li>
-			<li>C#, ASP.NET, SQL Server, Oracle</li>
-		</ul>
-		<h4>05.2004 – 09.2004</h4>
-		<p><span class="position">Datenbankentwickler</span> bei Deiros in Automatisationsabteilung, Moskau</p>
-		<ul>
-			<li>Implementierung der Geschäftslogik</li>
-			<li>PostgreSQL</li>
-		</ul>
-		<p>In die Lücken habe ich Elternzeit, Neuorientierung in Deutschland, Weiterbildung</p>
-		</br>
-		<hr>
-	</section>
-	<footer>
-		<h4>Sprachkenntnissen</h4>
-		<p>Deutsch B2</p>
-		<p>Englisch B1</p>
-		<p>Russisch Muttersprache</p>
-		<h4>Interessen</h4>
-		<p>Animation, Malen, Grafik, Jazz, Taijiquan Yang, Mountainbiking</p>
-		<h4>Mobilität</h4>
-		<p>Führerschein (Klasse B)</p>
-	</footer>
+        </ul>
+        <h5>11.2007 - 05.2009</h5>
+        <p><span class = "position"> Webentwicklerin </span> bei Virtuelle Technologien in der Bildung (E-Learning), Moskau </p>
+        <ul>
+        <li>Entwicklung von Webanwendungen für SCORM-Kursdesigner</li>
+        <li>Javascript, jQuery, AJAX, CSS, C #, ASP.NET, MS SQL 2008 </li>
+        </ul>
+        <h5> 04.2007 - 11.2007 </h5>
+        <p><span class = "position"> Softwareentwicklerin </span> bei Aelita Software Corporation (DELL Software), Moskau </p>
+        <ul>
+        <li> Entwickeln Webanwendungen Active Directory Administrator </li>
+        <li>C#, ASP.NET Web Services </li>
+        </ul>
+        <h5> 07.2006 - 03.2007 </h5>
+        <p> <span class = "position"> Softwareentwicklerin </span> bei Bell Integrator, Moskau </p>
+        <ul>
+        <li> Entwicklung von Sicherheitssystemen vor Beeline</li>
+		<li>C#, ASP.NET, SQL Server, Oracle</li>
+        </ul>
+        <h5> 05.2004 - 09.2004 </h5>
+        <p> <span class = "position"> Datenbankentwicklerin </span> bei Deiros in Automatisationsabteilung, Moskau </p>
+        <ul>
+        <li> Implementierung der Geschäftslogik </li>
+        <li> PostgreSQL </li>
+        </ul>
+        <p> In die Lücken habe ich Elternzeit, Neuorientierung in Deutschland, Weiterbildung </p>
+      </div>
+    </div><!-- End of #home-tiles -->
+
+  </div><!-- End of #main-content -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Sprachkenntnissen</span><br>
+          <span class="glyphicon glyphicon-tag"></span> Deutsch B2<br>
+          <span class="glyphicon glyphicon-tag"></span> Englisch B1<br>
+          <span class="glyphicon glyphicon-tag"></span> Russisch Muttersprache
+          <hr class="visible-xs">
+        </section>
+        <section id="hours" class="col-sm-4">
+          <span>Interessen</span><br>
+          <span class="glyphicon glyphicon-lamp"></span> Animation, Malen, Grafik, Jazz<br>
+          <span class="glyphicon glyphicon-leaf"></span> Taijiquan Yang, Mountainbiking
+          <hr class="visible-xs">
+        </section>
+        <section id="hours" class="col-sm-4">
+          <span>Mobilität</span><br>
+          <span class="glyphicon glyphicon-scale"></span> Führerschein (Klasse B)
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Jana Semenova 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
