@@ -87,27 +87,18 @@ body {
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-#hours, #address {
+
+#other {
   line-height: 2;
 }
-#hours > span, #address > span {
+#other > span {
   font-size: 1.3em;
 }
-#address p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
-}
-#testimonials {
-  font-style: italic;
-}
-#testimonials p:nth-child(2) {
-  margin-top: 25px;
-}
+
 /* END FOOTER */
 
 
-/* HOME PAGE */
+/* CV & LL PAGE */
 .container .jumbotron {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -141,7 +132,7 @@ body {
   font-weight: bold;
   color: #024E68;
 }
-/* END HOME PAGE */
+/* END CV & LL PAGE */
 
 
 /* 404 Page, Liste */
