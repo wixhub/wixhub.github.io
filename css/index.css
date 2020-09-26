@@ -78,7 +78,7 @@ li a:hover {
 .vertiсal { 
     width: 1ch; 
     text-align: center; 
-    font-family: monospace;
+    font-family: monospace, ui-monospace;
     color: #FF4900; 
     font-size: 2.2em; 
     word-wrap: break-word;
@@ -88,7 +88,7 @@ li a:hover {
     position: relative;
     text-align: left;
     color: brown;
-    font-family: monospace, monospace;
+    font-family: monospace, ui-monospace;
     font-weight: bold;
     font-size: 3.2em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
