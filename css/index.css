@@ -88,7 +88,8 @@ li a:hover {
     position: relative;
     text-align: left;
     color: brown;
-    font-family: monospace bold;
+    font-family: monospace;
+    font-weight: bold;
     font-size: 3.2em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 2px solid orange; /* The typwriter cursor */
@@ -104,7 +105,8 @@ li a:hover {
     text-align: left;
     position: relative;
     color: brown;
-    font-family: monospace bold;
+    font-family: monospace;
+    font-weight: bold;
     font-size: 3.2em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: 2px solid orange; /* The typwriter cursor */
