@@ -78,11 +78,13 @@ body {
 
 /* FOOTER */
 .panel-footer {
+  width: 100%;
   margin-top: 30px;
-  padding-top: 35px;
+  padding: 35px 0px 0px 0px;
   padding-bottom: 30px;
   background-color: #024E68;
   border-top: 0;
+  bottom: 0;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -94,9 +96,29 @@ body {
 #other > span {
   font-size: 1.3em;
 }
-
 /* END FOOTER */
 
+/* Animation list page */
+.odd_row, .even_row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  font-size: 1.3em;
+}
+.odd_row {
+  background-color:  seagreen;
+}
+.odd_row {
+  color: skyblue;
+}
+.even_row {
+  background-color: skyblue;
+}
+.even_row {
+  color: seagreen;
+}
+/* END Animation list page */
 
 /* CV & LL PAGE */
 .container .jumbotron {
@@ -143,7 +165,7 @@ section .page404, .single {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
 .single h3 {
@@ -169,35 +191,42 @@ section .page404, .single {
   
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  /* Home Page */
-  .container .jumbotron {
-    height: 75px;
+  /* Page */
+  #main-content {
+    height: 100%;
   }
-  /* End Home Page */
+  /* End Page */
+  .buttom-footer  {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
 
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    height: 58px;
+  /* Page */
+  #main-content {
+    height: 100%;
   }
-  /* End Home Page */
+  /* End Page */
+  .buttom-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
+  /* Page */
   .container .jumbotron {
     height: 32px;
   }
-  /* End Home Page */
+  /* End Page */
 }
 
 
@@ -261,12 +290,12 @@ section .page404, .single {
   }
   /* End Footer */
 
-  /* Home Page */
+  /* Page */
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
   }
-  /* END Home Page */
+  /* END Page */
 }
 
 
@@ -279,7 +308,7 @@ section .page404, .single {
   }
   /* End Header */
   
-  /* Home page */
+  /* Page */
   .col-xxs-12 {
     position: relative;
     min-height: 1px;
@@ -288,5 +317,5 @@ section .page404, .single {
     float: left;
     width: 100%;
   }
-  /* END Home Page */
+  /* END Page */
 }

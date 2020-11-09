@@ -5,20 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Jana Semenova animation list</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<section class="single">
-    <h3>Pure CSS3 Animation</h3>
-    <p>1. <a href="https://wixhub.github.io/interface_development/block_css/block.html" target="_blank">Simple moving block</a></p>
-    <p>2. <a href="https://wixhub.github.io/interface_development/ship_css/ship.html" target="_blank">Simple cartoon with ship - cycle 50s</a></p>
-    <h3>JavaScript & CSS3 Animation</h3>
-    <p>1. <a href="https://wixhub.github.io/javascript_interface/gallery.html" target="_blank">Picture gallery</a></p>
-    <p>2. Implementing <a href="https://wixhub.github.io/fullstack_development/module2-solution/index.html" target="_blank"> a page with three sections in a row </a> and 3 mockups: desktop, tablet and mobile. Using Bootstrap </p>
-    <p>3. Implementing <a href="https://wixhub.github.io/fullstack_development/module3-solution/index.html" target="_blank"> a  page with three sections in a column </a> and 3 mockups: desktop and tablet (same), mobile, and mobile with mobile menu dropdown shown with Twitter Bootstrap CSS Framework. </p>
-    <p>4. <a href="https://wixhub.github.io/fullstack_development/module5-solution/index.html" target="_blank">Restaurant web application</a> with real data. Using Ajax, Jquery, JSON </p>
-    <h3>JavaScript & CSS3 mobile Animation</h3>
-    <p>1. <a href="https://wixhub.github.io/javascript_mobile/compass.html" target="_blank">Compass</a></p>
-</section>
+<nav id="header-nav" class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+
+        <div class="navbar-brand">
+          <h1>Javascript & CSS3 Animation</h1>
+          <p>
+            <span><a href="http://getbootstrap.com" target="_blank">Bootstrap v3.3.6</a></span>
+          </p>
+        </div>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right">
+          <li class="visible-xs active">
+            <a href="https://wixhub.github.io/script_list.html">
+              <span class="glyphicon glyphicon-cloud"></span><br class="hidden-xs"><span> JavaScript list</span></a>
+          </li>
+          <li class="hidden-xs">
+            <a href="https://wixhub.github.io/script_list.html">
+              <span class="glyphicon glyphicon-cloud"></span><br class="hidden-xs"><span> JavaScript list</span></a>
+          </li>
+          <li class="hidden-xs">
+            <a href="https://wixhub.github.io/">
+              <span class="glyphicon glyphicon-send"></span><br class="hidden-xs"><span> Contact Card</span></a>
+          </li>
+        </ul><!-- #nav-list -->
+      </div><!-- .collapse .navbar-collapse -->
+    </div><!-- .container -->
+  </nav><!-- #header-nav -->
+</header>
+
+<div id="contact-btn" class="visible-xs">
+  <a class="btn" href="https://wixhub.github.io/">
+  <span class="glyphicon glyphicon-send"></span>
+  Contact Card
+  </a>
+</div>
+
+<div id="main-content" class="container">
+    <!-- 'text-center' is a Bootstrap class -->
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 container text-center">
+            <h2 class="text-center">JavaScript & CSS3 Animation</h2>
+            <a href="https://wixhub.github.io/javascript_interface/gallery.html" target="_blank"><div class="odd_row"><span class="glyphicon glyphicon-link"></span> Picture gallery. Using Lightbox</div></a>
+            <a href="https://wixhub.github.io/fullstack_development/module2-solution/index.html" target="_blank"><div class="even_row"><span class="glyphicon glyphicon-link"></span> Page with three sections in a row and 3 mockups: desktop, tablet and mobile. Using Bootstrap</div></a>
+            <a href="https://wixhub.github.io/fullstack_development/module3-solution/index.html" target="_blank"><div class="odd_row"><span class="glyphicon glyphicon-link"></span> Page with three sections in a column and 3 mockups: desktop, tablet und mobile with dropdown menu. Using Twitter Bootstrap CSS Framework</div></a> 
+            <a href="https://wixhub.github.io/fullstack_development/module5-solution/index.html" target="_blank"><div class="even_row"><span class="glyphicon glyphicon-link"></span> Restaurant web application with real data. Using Ajax, Jquery, JSON</div></a>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 container text-center">
+            <h2 class="text-center">Pure CSS3 Animation</h2>
+            <a href="https://wixhub.github.io/interface_development/ship_css/ship.html" target="_blank"><div class="even_row"><span class="glyphicon glyphicon-link"></span> Simple cartoon with ship</div></a>
+            <a href="https://wixhub.github.io/interface_development/block_css/block.html" target="_blank"><div class="odd_row"><span class="glyphicon glyphicon-link"></span> Simple moving block</div></a>
+            <h2 class="text-center">JavaScript mobile</h2>
+            <a href="https://wixhub.github.io/javascript_mobile/compass.html" target="_blank"><div class="even_row"><span class="glyphicon glyphicon-link"></span> Compass</div></a>
+            <h2 class="text-center">JavaScript games</h2>
+            <a href="https://wixhub.github.io/javascript_interface/bee.html" target="_blank"><div class="odd_row"><span class="glyphicon glyphicon-link"></span> Bee</div></a>
+        </div>
+    </div>
+</div> <!-- End of #main-content -->
+
+<footer class="panel-footer buttom-footer">
+    <div class="container">
+      <div class="text-center">&copy; Copyright Jana Semenova 2020</div>
+    </div>
+</footer>
+
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
