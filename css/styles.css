@@ -226,12 +226,27 @@ section .page404, .single {
   .container .jumbotron {
     height: 32px;
   }
+  #main-content {
+    height: 100%;
+  }
+
+  .picture-holder {
+    height: 400px;
+  }
   /* End Page */
 }
 
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
+  #main-content {
+    height: 100%;
+  }
+  .picture-holder {
+    height: 400px;
+  }
+
   /* Header */
   .navbar-brand {
     padding-top: 10px;
@@ -301,6 +316,9 @@ section .page404, .single {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+  #main-content {
+    height: 100%;
+  }
   /* Header */
   .navbar-brand h1 { /* Name */
     padding-top: 5px;

@@ -1,18 +1,19 @@
 /* GLOBAL STYLES */
-body {
+* {
+    box-sizing: border-box;
+}
+
+body, html { 
+    height: 100%;
     background-color: #FFC373;
 }
 
-section {
+.contentCard {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
     border-radius: 1em;
-    padding: 1em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    min-width: 280px;
-    min-height: 400px;
+    padding: auto;
 }
 
 .card {
@@ -20,13 +21,27 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 280px;
+    min-height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    text-align: center;
 }
 
 /* MENU */
 ul {
     list-style-type: none;
     text-align: center; 
-    width: 122px;
+    width: 125px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -67,7 +82,7 @@ li a:hover {
 
 .space1 {
     padding-left: 7px;
-    padding-right: 90px;
+    padding-right: 115px;
 }
 
 .space2 {
@@ -92,7 +107,7 @@ li a:hover {
     font-weight: bold;
     font-size: 3.2em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 2px solid orange; /* The typwriter cursor */
+    border-right: 2px solid rgb(95, 72, 28); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: 4px ; /* Adjust as needed */
@@ -107,9 +122,9 @@ li a:hover {
     color: brown;
     font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
     font-weight: bold;
-    font-size: 3.2em;
+    font-size: 3.3em;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 2px solid orange; /* The typwriter cursor */
+    border-right: 3px solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: 8px ; /* Adjust as needed */
@@ -166,8 +181,8 @@ li a:hover {
 }
 
 .go_MENU {
-    padding-left: 20px;
-    padding-right: 0px;
+    float: right;
+
     animation: 
     go-DATA 2s linear forwards,
     blink-DATA .5s linear forwards;
@@ -183,6 +198,25 @@ li a:hover {
     100% {
         opacity: 0.9;
     }
+}
+
+.topMenu {
+    width: 120px;
+    padding-top: 12px;
+}
+
+.topMenu a {
+    font-weight: bold;
+}
+
+.rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0; /* Отступы вокруг фотографии */
+    display:block;
+}
+
+.projectsMenu {
+    padding: 10px 0px 0px 0px;
 }
 
 .go_DEV {
@@ -289,4 +323,29 @@ li a:hover {
     100% {
         transform: none;
     }
+}
+
+/* GALLERY */
+.picture-holder {
+    width: 340px;
+    height: 320px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #FF9200;
+    overflow: hidden;
+    text-align: center;
+    color: #A62F00;
+}
+.picture-holder h4 {
+    font-weight: bold;
+}
+.picture-holder img {
+    margin-top: 16px;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
 }
