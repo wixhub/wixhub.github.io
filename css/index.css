@@ -363,3 +363,9 @@ li a:hover {
     height: 200px;
     overflow: hidden;
 }
+.square-img img {
+    margin-top: 16px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
