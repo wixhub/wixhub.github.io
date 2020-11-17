@@ -210,8 +210,8 @@ li a:hover {
 }
 
 .rightpic {
-    float: right; /* Выравнивание по правому краю */
-    margin: 0; /* Отступы вокруг фотографии */
+    float: right;
+    margin: 0;
     display:block;
 }
 
@@ -306,10 +306,24 @@ li a:hover {
     50% { border-color: orange }
 }
 
-.contact::after {
+.contactLink {
+    width: 125px;
+    text-align: right;
+}
+
+.contact {
+    color: #FF4900;
+    font-size: 1.1em;
+    font-weight: bold;
+    animation: 
+    go-contact 1s linear forwards,
+    blink-contact .5s linear forwards;
+}
+.convert::after {
     content: '\2709';
-    color: orange;
-    font-size: 1.2em;
+    color: #FF4900;
+    font-size: 3.8em;
+    text-shadow: 1px 1px 3px #FF4900;
     animation: 
     go-contact 1s linear forwards,
     blink-contact .5s linear forwards;
