@@ -9,13 +9,100 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <section class="single">
-        <h3>Java projects</h3>
-        <p>1. <a href="https://github.com/wixhub/java_parallel" target="_blank">Parallel, Concurrent, and Distributed Programming in Java</a></p>
-        <p>2. <a href="https://github.com/wixhub/java_unfoldingmaps" target="_blank">Interactive visualization</a>  of a large dataset tagged by geospatial information with a Unfolding Maps Library</p>
-    </section>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+    
+            <div class="navbar-brand">
+              <h1>Java projects on GitHub</h1>
+              <p>
+                <span><a href="http://getbootstrap.com" target="_blank">Bootstrap v3.3.6</a></span>
+              </p>
+            </div>
+    
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                <a href="https://wixhub.github.io/index.html#JS">
+                  <span class="glyphicon glyphicon-cloud"></span><br class="hidden-xs"><span>JavaScript & CSS3</span></a>
+              </li>
+              <li class="hidden-xs">
+                <a href="https://wixhub.github.io/">
+                  <span class="glyphicon glyphicon-send"></span><br class="hidden-xs"><span> Contact Card</span></a>
+              </li>
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div><!-- .container -->
+      </nav><!-- #header-nav -->
+    </header>
+    
+    <div id="contact-btn" class="visible-xs">
+      <a class="btn" href="https://wixhub.github.io/">
+      <span class="glyphicon glyphicon-send"></span>
+      Contact Card
+      </a>
+    </div>
+    
+    <div id="main-content" class="container">
+        <!-- 'text-center' is a Bootstrap class -->
+        <h3 class="text-center">Java projects based on Coursera courses Java Programming and Software Engineering </h3>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 container text-center">
+                <h4>Java Programming and Software Engineering Fundamentals Specialization by Duke University</h4>
+                <a href="https://github.com/wixhub/" target="_blank">
+                    <div class="even_row"><span class="glyphicon glyphicon-link"></span> Java Programming: Solving Problems with Software</div>
+                </a>
+                <a href="https://github.com/wixhub/" target="_blank">
+                    <div class="odd_row"><span class="glyphicon glyphicon-link"></span> Java Programming: Arrays, Lists and Structured Data</div>
+                </a>
+                <a href="https://github.com/wixhub/" target="_blank">
+                    <div class="even_row"><span class="glyphicon glyphicon-link"></span> Java Programming: Principles of Software Design</div>
+                </a>
+                <a href="https://github.com/wixhub/" target="_blank">
+                    <div class="odd_row"><span class="glyphicon glyphicon-link"></span> Java Programming: Build a Recommendation System</div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 container text-center">
+                <h4>Object Oriented Programming in Java by University of California San Diego</h4>
+                <a href="https://github.com/wixhub/java_unfoldingmaps" target="_blank">
+                    <div class="odd_row"><span class="glyphicon glyphicon-link"></span> Interactive visualization of a large dataset tagged by geospatial information with a Unfolding Maps Library</div>
+                </a>
+                <h4>Parallel, Concurrent, and Distributed Programming in Java Specialization by Rice University</h4>
+                <a href="https://github.com/wixhub/java_parallel" target="_blank">
+                    <div class="even_row"><span class="glyphicon glyphicon-link"></span> Parallel Programming in Java</div>
+                </a>
+                <a href="https://github.com/wixhub/java_parallel" target="_blank">
+                    <div class="odd_row"><span class="glyphicon glyphicon-link"></span> Concurrent Programming in Java</div>
+                </a>
+                <a href="https://github.com/wixhub/java_parallel" target="_blank">
+                    <div class="even_row"><span class="glyphicon glyphicon-link"></span> Distributed Programming in Java</div>
+                </a>
+            </div>
+        </div>
+    </div> <!-- End of #main-content -->
+    
+    <footer class="panel-footer buttom-footer">
+        <div class="container">
+          <div class="text-center">&copy; Copyright Jana Semenova 2020</div>
+        </div>
+    </footer>
+    
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

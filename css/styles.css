@@ -109,13 +109,13 @@ body {
 .odd_row {
   background-color:  seagreen;
 }
-.odd_row {
+.odd_row, .odd_row a {
   color: skyblue;
 }
 .even_row {
   background-color: skyblue;
 }
-.even_row {
+.even_row,  .even_row a{
   color: seagreen;
 }
 /* END Animation list page */
