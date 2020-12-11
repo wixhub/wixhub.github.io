@@ -322,7 +322,7 @@ li a:hover {
 .convert::after {
     content: '\2709';
     color: #FF4900;
-    font-size: 3.8em;
+    font-size: 3.6em;
     text-shadow: 1px 1px 3px #FF4900;
     animation: 
     go-contact 1s linear forwards,
