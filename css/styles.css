@@ -30,6 +30,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   color: floralwhite;
+  text-shadow: #303F9F 1px 0 10px;
 }
 
 #top {
@@ -55,6 +56,16 @@ address {
 body {
   padding: 20px 0px 0px 0px;
   z-index: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 8px;
+}
+
+#btn {
+  clear: both;
+  margin-top: 8px;
 }
 
 .navbar-inverse {
