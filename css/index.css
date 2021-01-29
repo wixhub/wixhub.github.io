@@ -5,70 +5,17 @@
 
 body, html { 
     height: 100%;
-    background-color: #FFC373;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #f0cea1;
 }
 
-.contentCard {
-    min-width: 100%;
-    min-height: 100%;
-    position: relative;
-    border-radius: 1em;
-    padding: auto;
+a {
+    text-decoration: none;
 }
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    min-width: 280px;
-    min-height: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
+a:hover { text-decoration: none; }
 
 .row {
     text-align: center;
-}
-
-/* MENU */
-ul {
-    list-style-type: none;
-    text-align: center; 
-    width: 125px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-li {
-    display: block;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-  
-li a {
-    display: block;
-    color: #A62F00;
-    font-size: 1em;
-    text-decoration: none;
-    background-color: #66A3D2;
-    border-radius: 9px;
-    border: 0;
-}
-
-/* Change the link color on hover */
-li a:hover {
-    background-color: #033E6B;
-    color: white;
 }
 
 /* SPECIFIC STYLES */

@@ -1,11 +1,96 @@
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #00BB3F;
-  font-family: 'Oxygen', sans-serif;
+  font-size: 100%;
 }
-  
+
 /** HEADER **/
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.row-footer {
+  background-color: rgb(175, 175, 175, 0.4);
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+  padding: 60px 30px 30px 30px;
+  margin: 0px auto;
+  background: rgba(32, 156, 238, 0.4);
+  background-image: url("../images/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: floralwhite;
+}
+
+#top {
+  padding: 60px 30px 30px 30px;
+  margin: 0px auto;
+  background: rgba(32, 156, 238, 0.4);
+  background-image: url("../images/untergang.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: floralwhite;
+}
+
+#title {
+  font-style: italic;
+}
+
+address {
+  font-size: 100%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 20px 0px 0px 0px;
+  z-index: 0;
+}
+
+.navbar-inverse {
+  background: #303F9F;
+  font-size: 1.3em;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  color: #fff;
+  background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  color: #fff;
+  background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #303F9F;
+  color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: #c0b0b0;
+}
+
+.dropdown {
+  margin-top: 5px;
+}
+
+.dropdown-header {
+  color: #dbd6d6;
+}
+
+/******************/
+
 #header-nav {
   background-color: #024E68;
   border-radius: 0;
@@ -15,7 +100,9 @@ body {
 .navbar-brand {
   padding-top: 25px;
 }
-.navbar-brand h1 { /* heder */
+
+.navbar-brand h1 {
+  /* heder */
   font-family: 'Lora', serif;
   color: #00BB3F;
   font-size: 1.5em;
@@ -26,29 +113,35 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { 
+
+.navbar-brand p {
   color: #E7E7E7;
   text-transform: uppercase;
   font-size: .8em;
   margin-top: 5px;
 }
-.navbar-brand p span { 
+
+.navbar-brand p span {
   vertical-align: middle;
 }
 
 #nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
   color: #00BD39;
   text-align: center;
 }
+
 #nav-list a:hover {
   background: #E7E7E7;
 }
+
 #nav-list a span {
   font-size: 1.4em;
 }
@@ -57,10 +150,12 @@ body {
   margin: 0px;
   padding: 15px;
 }
+
 #contact a {
   text-align: right;
   padding-bottom: 0;
 }
+
 #contact div {
   color: #00BD39;
   text-align: right;
@@ -69,14 +164,16 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #238C47;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
+
 /* END HEADER */
-  
 
 /* FOOTER */
+
 .panel-footer {
   width: 100%;
   margin-top: 30px;
@@ -86,6 +183,7 @@ body {
   border-top: 0;
   bottom: 0;
 }
+
 .panel-footer div.row {
   margin-bottom: 35px;
 }
@@ -93,12 +191,15 @@ body {
 #other {
   line-height: 2;
 }
-#other > span {
+
+#other>span {
   font-size: 1.3em;
 }
+
 /* END FOOTER */
 
 /* Animation list page */
+
 .odd_row, .even_row {
   width: 80%;
   margin-left: auto;
@@ -106,21 +207,27 @@ body {
   padding: 10px 10px 10px 10px;
   font-size: 1.3em;
 }
+
 .odd_row {
-  background-color:  seagreen;
+  background-color: seagreen;
 }
+
 .odd_row, .odd_row a {
   color: skyblue;
 }
+
 .even_row {
   background-color: skyblue;
 }
-.even_row,  .even_row a{
+
+.even_row, .even_row a {
   color: seagreen;
 }
+
 /* END Animation list page */
 
 /* CV & LL PAGE */
+
 .container .jumbotron {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -138,12 +245,15 @@ body {
   border-radius: 6px;
   margin-bottom: 15px;
 }
+
 .profil div {
   margin-top: 10px;
 }
+
 .profil h3 {
   margin-top: 0px;
 }
+
 .profil a {
   color: #00BB3F;
   text-decoration: none;
@@ -154,10 +264,11 @@ body {
   font-weight: bold;
   color: #024E68;
 }
+
 /* END CV & LL PAGE */
 
-
 /* 404 Page, Liste */
+
 section .page404, .single {
   border-radius: 1em;
   padding: 1em;
@@ -188,29 +299,11 @@ section .page404, .single {
 }
 
 /* END 404 Page, Liste */
-  
+
 /********** Large devices only **********/
+
 @media (min-width: 1200px) {
   /* Page */
-  #main-content {
-    height: 100%;
-  }
-  /* End Page */
-  .buttom-footer  {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-  }
-}
-
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-
-  /* Page */
-  #main-content {
-    height: 100%;
-  }
   /* End Page */
   .buttom-footer {
     width: 100%;
@@ -219,63 +312,68 @@ section .page404, .single {
   }
 }
 
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Page */
+  /* End Page */
+  .buttom-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
 
 /********** Small devices only **********/
+
 @media (min-width: 768px) and (max-width: 991px) {
   /* Page */
   .container .jumbotron {
     height: 32px;
   }
-  #main-content {
-    height: 100%;
-  }
-
   .picture-holder {
     height: 400px;
   }
   /* End Page */
 }
 
-
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
 
-  #main-content {
-    height: 100%;
-  }
+@media (max-width: 767px) {
   .picture-holder {
     height: 400px;
   }
-
   /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Name */
+  .navbar-brand h1 {
+    /* Name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw;
+    /* 1vw = 1% of viewport width */
   }
-  .navbar-brand p { /* Text type */
+  .navbar-brand p {
+    /* Text type */
     font-size: .6em;
     margin-top: 12px;
   }
-
   .profil {
     margin-top: 30px;
     margin-right: 0px;
     margin-left: 0px;
   }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
   }
-
-  #contact-btn > a {
+  #contact-btn>a {
     font-size: 1.5em;
     display: block;
     margin: 0 20px;
@@ -290,21 +388,19 @@ section .page404, .single {
     text-transform: uppercase;
   }
   /* End Header */
-
-
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
     text-align: center;
   }
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0;
+    /* margin already exists on the whole row */
   }
   .panel-footer section hr {
     width: 50%;
   }
   /* End Footer */
-
   /* Page */
   .container .jumbotron {
     margin-top: 30px;
@@ -313,19 +409,16 @@ section .page404, .single {
   /* END Page */
 }
 
-
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+
 @media (max-width: 479px) {
-  #main-content {
-    height: 100%;
-  }
   /* Header */
-  .navbar-brand h1 { /* Name */
+  .navbar-brand h1 {
+    /* Name */
     padding-top: 5px;
     font-size: 6vw;
   }
   /* End Header */
-  
   /* Page */
   .col-xxs-12 {
     position: relative;
