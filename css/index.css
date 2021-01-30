@@ -1,24 +1,142 @@
-/* GLOBAL STYLES */
-* {
-    box-sizing: border-box;
+/* SPECIFIC STYLES */
+
+html, body {
+    background-color: #a1a2f0;
 }
 
-body, html { 
-    height: 100%;
-    font-family: 'Oxygen', sans-serif;
-    background-color: #f0cea1;
+body {
+    padding: 20px 0px 0px 0px;
+    z-index: 0;
 }
 
-a {
-    text-decoration: none;
-}
-a:hover { text-decoration: none; }
+/* row style */
 
 .row {
     text-align: center;
 }
 
-/* SPECIFIC STYLES */
+.row-header {
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.row-footer {
+    background-color: rgb(175, 175, 175, 0.4);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*** end row style ***/
+
+/* top menu */
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 8px;
+}
+
+#btn {
+    clear: both;
+    margin-top: 8px;
+}
+
+.navbar-inverse {
+    background: #303F9F;
+    font-size: 1.3em;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #c0b0b0;
+}
+
+.dropdown-header {
+    color: #dbd6d6;
+}
+
+/*** end top menu ***/
+
+/* Page title */
+
+.jumbotron {
+    padding: 60px 30px 30px 30px;
+    margin: 0px auto;
+    background-color: #a1a2f0;
+    background-image: url("../images/fon.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.otto {
+    font: bold;
+    font-family: monospace, ui-monospace;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+/*** end Page title ***/
+
+/* Portfolio */
+
+.picture-holder {
+    width: 340px;
+    height: 320px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #FF9200;
+    overflow: hidden;
+    text-align: center;
+    color: #A62F00;
+}
+
+.picture-holder h4 {
+    font-weight: bold;
+}
+
+.picture-holder img {
+    margin-top: 16px;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.square-img img {
+    margin-top: 16px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+/*** end Portfolio ***/
+
+/* Print text */
+
 .cell {
     width: 315px;
 }
@@ -37,12 +155,12 @@ a:hover { text-decoration: none; }
     padding-right: 10px;
 }
 
-.vertiсal { 
-    width: 1ch; 
-    text-align: center; 
+.vertiсal {
+    width: 1ch;
+    text-align: center;
     font-family: monospace, ui-monospace;
-    color: #FF4900; 
-    font-size: 2.2em; 
+    color: #FF4900;
+    font-size: 2.2em;
     word-wrap: break-word;
 }
 
@@ -53,14 +171,17 @@ a:hover { text-decoration: none; }
     font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
     font-weight: bold;
     font-size: 3.2em;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 2px solid rgb(95, 72, 28); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 4px ; /* Adjust as needed */
-    animation: 
-    typing1 1s steps(4, end),
-    blink-caret 1s step-end forwards;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid rgb(95, 72, 28);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 4px;
+    /* Adjust as needed */
+    animation: typing1 1s steps(4, end), blink-caret 1s step-end forwards;
 }
 
 .typewriter2 {
@@ -70,36 +191,45 @@ a:hover { text-decoration: none; }
     font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
     font-weight: bold;
     font-size: 3.3em;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 3px solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 8px ; /* Adjust as needed */
-    animation: 
-    typing2 1s steps(8, end),
-    go-down 1s linear forwards,
-    blink-caret 1s step-end forwards;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 3px solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 8px;
+    /* Adjust as needed */
+    animation: typing2 1s steps(8, end), go-down 1s linear forwards, blink-caret 1s step-end forwards;
 }
 
-.typewriter1::first-letter
-{
+.typewriter1::first-letter {
     color: #FF9200;
 }
 
-.typewriter2::first-letter
-{
+.typewriter2::first-letter {
     color: #FF9200;
 }
 
 /* The typing effect */
+
 @keyframes typing1 {
-    from { width: 0 }
-    to { width: 4ch }
+    from {
+        width: 0
+    }
+    to {
+        width: 4ch
+    }
 }
 
 @keyframes typing2 {
-    from { width: 0 }
-    to { width: 8ch }
+    from {
+        width: 0
+    }
+    to {
+        width: 8ch
+    }
 }
 
 @keyframes go-down {
@@ -112,9 +242,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_AVA {
-    animation: 
-    go-AVA 1s linear forwards,
-    blink-AVA .5s linear forwards;
+    animation: go-AVA 1s linear forwards, blink-AVA .5s linear forwards;
 }
 
 @keyframes go-AVA {
@@ -129,10 +257,7 @@ a:hover { text-decoration: none; }
 
 .go_MENU {
     float: right;
-
-    animation: 
-    go-DATA 2s linear forwards,
-    blink-DATA .5s linear forwards;
+    animation: go-DATA 2s linear forwards, blink-DATA .5s linear forwards;
 }
 
 @keyframes go-DATA {
@@ -159,7 +284,7 @@ a:hover { text-decoration: none; }
 .rightpic {
     float: right;
     margin: 0;
-    display:block;
+    display: block;
 }
 
 .projectsMenu {
@@ -167,9 +292,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_DEV {
-    animation: 
-    go-DEV 1s linear forwards,
-    blink-DEV .5s linear forwards;
+    animation: go-DEV 1s linear forwards, blink-DEV .5s linear forwards;
 }
 
 @keyframes go-DEV {
@@ -183,9 +306,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_CRIPT {
-    animation: 
-    go-CRIPT 1s linear forwards,
-    blink-CRIPT .5s linear forwards;
+    animation: go-CRIPT 1s linear forwards, blink-CRIPT .5s linear forwards;
 }
 
 @keyframes go-CRIPT {
@@ -199,9 +320,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_LOPER {
-    animation: 
-    go-LOPER 1s linear forwards,
-    blink-LOPER .5s linear forwards;
+    animation: go-LOPER 1s linear forwards, blink-LOPER .5s linear forwards;
 }
 
 @keyframes go-LOPER {
@@ -215,9 +334,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_PORTAL {
-    animation: 
-    go-PORTAL 1s linear forwards,
-    blink-PORTAL .5s linear forwards;
+    animation: go-PORTAL 1s linear forwards, blink-PORTAL .5s linear forwards;
 }
 
 @keyframes go-PORTAL {
@@ -231,9 +348,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_ACT {
-    animation: 
-    go-ACT 1s linear forwards,
-    blink-ACT .5s linear forwards;
+    animation: go-ACT 1s linear forwards, blink-ACT .5s linear forwards;
 }
 
 @keyframes go-ACT {
@@ -245,12 +360,18 @@ a:hover { text-decoration: none; }
         transform: none;
     }
 }
+
 /*end*/
 
 /* The typewriter cursor effect */
+
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
 }
 
 .contactLink {
@@ -262,18 +383,15 @@ a:hover { text-decoration: none; }
     color: #FF4900;
     font-size: 1.1em;
     font-weight: bold;
-    animation: 
-    go-contact 1s linear forwards,
-    blink-contact .5s linear forwards;
+    animation: go-contact 1s linear forwards, blink-contact .5s linear forwards;
 }
+
 .convert::after {
     content: '\2709';
     color: #FF4900;
     font-size: 3.6em;
     text-shadow: 1px 1px 3px #FF4900;
-    animation: 
-    go-contact 1s linear forwards,
-    blink-contact .5s linear forwards;
+    animation: go-contact 1s linear forwards, blink-contact .5s linear forwards;
 }
 
 @keyframes go-contact {
@@ -286,33 +404,78 @@ a:hover { text-decoration: none; }
     }
 }
 
-/* GALLERY */
-.picture-holder {
-    width: 340px;
-    height: 320px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    border-radius: 25px;
-    background-color: #FF9200;
-    overflow: hidden;
-    text-align: center;
-    color: #A62F00;
-}
-.picture-holder h4 {
-    font-weight: bold;
-}
-.picture-holder img {
-    margin-top: 16px;
-    border-radius: 25px;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-}
-.square-img img {
-    margin-top: 16px;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-}
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+
+    .row {
+        margin-top: 30px;
+    }
+  
+    .buttom-footer {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+    .row {
+        margin-top: 30px;
+    }
+
+  }
+  
+  /********** Small devices only **********/
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Page */
+    .row {
+        margin-top: 10px;
+    }
+    .picture-holder {
+      height: 400px;
+    }
+    /* End Page */
+  }
+  
+  /********** Extra small devices only **********/
+  
+  @media (max-width: 767px) {
+
+    .row {
+        margin-top: 0px;
+    }
+
+    .picture-holder {
+      height: 400px;
+    }
+    
+  }
+  
+  /********** Super extra small devices Only (e.g., iPhone 4) **********/
+  
+  @media (max-width: 479px) {
+    /* Header */
+    .jumbotron {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+    /* End Header */
+    /* Page */
+    .row {
+      margin-top: 0px;
+    }
+    .col-xxs-12 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: left;
+      width: 100%;
+    }
+    /* END Page */
+  }

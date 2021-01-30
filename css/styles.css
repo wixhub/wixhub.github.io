@@ -1,106 +1,23 @@
-body {
-  font-size: 100%;
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
 }
+
+html, body { 
+  font-size: 100%;
+  height: 100%;
+  background-color: #00BB3F;
+  color : #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover { text-decoration: none; }
 
 /** HEADER **/
-
-.row-header {
-  margin: 0px auto;
-  padding: 0px auto;
-}
-
-.row-content {
-  margin: 0px auto;
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
-  min-height: 400px;
-}
-
-.row-footer {
-  background-color: rgb(175, 175, 175, 0.4);
-  margin: 0px auto;
-  padding: 20px 0px 20px 0px;
-}
-
-.jumbotron {
-  padding: 60px 30px 30px 30px;
-  margin: 0px auto;
-  background: rgba(32, 156, 238, 0.4);
-  background-image: url("../images/fon.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  color: floralwhite;
-  text-shadow: #303F9F 1px 0 10px;
-}
-
-#top {
-  padding: 60px 30px 30px 30px;
-  margin: 0px auto;
-  background: rgba(32, 156, 238, 0.4);
-  background-image: url("../images/untergang.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  color: floralwhite;
-}
-
-#title {
-  font-style: italic;
-}
-
-address {
-  font-size: 100%;
-  margin: 0px;
-  color: #0f0f0f;
-}
-
-body {
-  padding: 20px 0px 0px 0px;
-  z-index: 0;
-}
-
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: 8px;
-}
-
-#btn {
-  clear: both;
-  margin-top: 8px;
-}
-
-.navbar-inverse {
-  background: #303F9F;
-  font-size: 1.3em;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-  color: #fff;
-  background: #1A237E;
-}
-
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
-  color: #fff;
-  background: #1A237E;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu {
-  background-color: #303F9F;
-  color: #eeeeee;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-  color: #c0b0b0;
-}
-
-.dropdown {
-  margin-top: 5px;
-}
-
-.dropdown-header {
-  color: #dbd6d6;
-}
-
-/******************/
 
 #header-nav {
   background-color: #024E68;
@@ -314,8 +231,7 @@ section .page404, .single {
 /********** Large devices only **********/
 
 @media (min-width: 1200px) {
-  /* Page */
-  /* End Page */
+  
   .buttom-footer {
     width: 100%;
     position: absolute;
@@ -326,8 +242,7 @@ section .page404, .single {
 /********** Medium devices only **********/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Page */
-  /* End Page */
+  
   .buttom-footer {
     width: 100%;
     position: absolute;
@@ -420,7 +335,7 @@ section .page404, .single {
   /* END Page */
 }
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/********** Super extra small devices Only (e.g., iPhone 4) **********/
 
 @media (max-width: 479px) {
   /* Header */
