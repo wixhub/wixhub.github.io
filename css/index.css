@@ -1,5 +1,4 @@
 /* SPECIFIC STYLES */
-<<<<<<< HEAD
 
 html, body {
    
@@ -16,16 +15,6 @@ body {
 
 .div {
     text-align: center;
-=======
-
-html, body {
-    background-color: #a1a2f0;
-}
-
-body {
-    padding: 20px 0px 0px 0px;
-    z-index: 0;
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
 }
 
 /* row style */
@@ -67,7 +56,6 @@ body {
     margin-top: 8px;
 }
 
-<<<<<<< HEAD
 .nav a {
     color: #A62F00;
 }
@@ -137,34 +125,6 @@ ul li i {
 
 .dropdown-header {
     color: #fff;
-=======
-.navbar-inverse {
-    background: #303F9F;
-    font-size: 1.3em;
-}
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
-    color: #fff;
-    background: #1A237E;
-}
-
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
-    color: #fff;
-    background: #1A237E;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu {
-    background-color: #303F9F;
-    color: #eeeeee;
-}
-
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: #c0b0b0;
-}
-
-.dropdown-header {
-    color: #dbd6d6;
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
 }
 
 /*** end top menu ***/
@@ -172,7 +132,6 @@ ul li i {
 /* Page title */
 
 .jumbotron {
-<<<<<<< HEAD
     padding: 0px 0px 0px 0px;
     text-align: center;
     width: 100%;
@@ -234,23 +193,11 @@ ul li i {
 
 .imageHolder img {
     width: 100%;
-=======
-    padding: 60px 30px 30px 30px;
-    margin: 0px auto;
-    background-color: #a1a2f0;
-    background-image: url("../images/fon.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
 }
 
 .otto {
     font: bold;
-<<<<<<< HEAD
     font-family: "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
-=======
-    font-family: monospace, ui-monospace;
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
     color: white;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
@@ -267,7 +214,6 @@ ul li i {
     margin-right: auto;
     padding: 5px;
     border-radius: 25px;
-<<<<<<< HEAD
     -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
     color: #A62F00;
@@ -290,14 +236,6 @@ ul li i {
     background: linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
 }
 
-=======
-    background-color: #FF9200;
-    overflow: hidden;
-    text-align: center;
-    color: #A62F00;
-}
-
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
 .picture-holder h4 {
     font-weight: bold;
 }
@@ -591,7 +529,6 @@ ul li i {
 /********** Large devices only **********/
 
 @media (min-width: 1200px) {
-<<<<<<< HEAD
     .jumbotron {
         padding: 0px 0px 0px 0px;
         margin: 0px auto;
@@ -626,39 +563,10 @@ ul li i {
         padding: 0px 0px 0px 0px;
         margin: 100px auto;
     }
-=======
-
-    .row {
-        margin-top: 30px;
-    }
-  
-    .buttom-footer {
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-    }
-  }
-  
-  /********** Medium devices only **********/
-  
-  @media (min-width: 992px) and (max-width: 1199px) {
-
-    .row {
-        margin-top: 30px;
-    }
-
-  }
-  
-  /********** Small devices only **********/
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* Page */
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
     .row {
         margin-top: 10px;
     }
     .picture-holder {
-<<<<<<< HEAD
         height: 330px;
     }
     /* End Page */
@@ -683,39 +591,10 @@ ul li i {
         padding-bottom: 0px;
         margin-top: 30px;
         margin-bottom: 0px;
-=======
-      height: 400px;
-    }
-    /* End Page */
-  }
-  
-  /********** Extra small devices only **********/
-  
-  @media (max-width: 767px) {
-
-    .row {
-        margin-top: 0px;
-    }
-
-    .picture-holder {
-      height: 400px;
-    }
-    
-  }
-  
-  /********** Super extra small devices Only (e.g., iPhone 4) **********/
-  
-  @media (max-width: 479px) {
-    /* Header */
-    .jumbotron {
-      padding-bottom: 0px;
-      margin-bottom: 0px;
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
     }
     /* End Header */
     /* Page */
     .row {
-<<<<<<< HEAD
         margin-top: 30px;
     }
     .col-xxs-12 {
@@ -728,17 +607,3 @@ ul li i {
     }
     /* END Page */
 }
-=======
-      margin-top: 0px;
-    }
-    .col-xxs-12 {
-      position: relative;
-      min-height: 1px;
-      padding-right: 15px;
-      padding-left: 15px;
-      float: left;
-      width: 100%;
-    }
-    /* END Page */
-  }
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40

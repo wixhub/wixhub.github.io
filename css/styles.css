@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 html, body {
   font-size: 100%;
   height: 100%;
@@ -26,17 +25,6 @@ a:active - a link the moment it is clicked
 
 */
 a,  a:link, a:visited, a:hover, a:active {
-=======
-html, body { 
-  font-size: 100%;
-  height: 100%;
-  background-color: #00BB3F;
-  color : #fff;
-  font-family: 'Oxygen', sans-serif;
-}
-
-a {
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
   text-decoration: none;
 }
 a:hover { text-decoration: none; }
@@ -255,10 +243,6 @@ section .page404, .single {
 /********** Large devices only **********/
 
 @media (min-width: 1200px) {
-<<<<<<< HEAD
-=======
-  
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
   .buttom-footer {
     width: 100%;
     position: absolute;
@@ -269,10 +253,6 @@ section .page404, .single {
 /********** Medium devices only **********/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-<<<<<<< HEAD
-=======
-  
->>>>>>> 92e47f5ccf17985231fe26cf6892f917ae2e0b40
   .buttom-footer {
     width: 100%;
     position: absolute;
