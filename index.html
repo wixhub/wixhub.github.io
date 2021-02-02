@@ -20,8 +20,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link rel="stylesheet" href="css/bootstrap-social.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -33,11 +35,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
+                <button id="btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -46,21 +48,25 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><img src="images/github-logo.png" alt="logo"
-                                style="width:30px;height:30px"> GitHub </a></li>
+                    <li><i class="fa fa-github yellow-color fa-2x" aria-hidden="true"></i></li>
+                    <li class="active"><a href="#"> Home </a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                             aria-expanded="false"><span class="glyphicon glyphicon-th"></span> Portfolio <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://wixhub.github.io/javaproj_list.html"> Java projects </a></li>
+                            <li><a href="https://wixhub.github.io/javaproj_list.html">
+                                    <i class="fab fa-java" aria-hidden="true"></i> Java projects list</a></li>
                             <li role="separator" class="divider"></li>
                             <li class="dropdown-header"> JavaScript </li>
-                            <li><a href="https://wixhub.github.io/script_list.html"> Back JavaScript </a></li>
-                            <li><a href="#JS"> Front JavaSript </a></li>
+                            <li><a href="#An"><i class="fab fa-angular" aria-hidden="true"></i> Angular</a></li>
+                            <li><a href="#Re"><i class="fab fa-react" aria-hidden="true"></i> React</li>
+                            <li><a href="#Nj"><i class="fab fa-node-js" aria-hidden="true"></i> Node.js</li>
+                            <li><a href="#JS"><i class="fab fa-js" aria-hidden="true"></i> JavaSript games</a></li>
                             <li role="separator" class="divider"></li>
                             <li class="dropdown-header"> CSS </li>
-                            <li><a href="#CSS3"> Pure CSS3 animation </a></li>
+                            <li><a href="#CSS3"><i class="fab fa-css3-alt" aria-hidden="true"></i> CSS<i
+                                        class="fab fa-css3" aria-hidden="true"></i> animation </a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -68,9 +74,9 @@
                             aria-expanded="false"><span class="glyphicon glyphicon-list-alt"></span> Projects <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://github.com/wixhub"> GitHub </a></li>
-                            <li><a href="https://bitbucket.org/rub1in/"> Bitbucket </a></li>
-                            <li><a href="https://codepen.io/Rublin"> CodePen </a></li>
+                            <li><a href="https://github.com/wixhub" target="_blank"> GitHub </a></li>
+                            <li><a href="https://bitbucket.org/rub1in/" target="_blank"> Bitbucket </a></li>
+                            <li><a href="https://codepen.io/Rublin" target="_blank"> CodePen </a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -78,9 +84,11 @@
                             aria-expanded="false"><span class="glyphicon glyphicon-briefcase"></span> Social links <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://www.linkedin.com/in/jana-semenova-b29555112"> LinkedIN </a></li>
-                            <li><a href="https://www.xing.com/profile/Jana_Semenova2/cv"> XING </a></li>
-                            <li><a href="https://www.glassdoor.de/member/38169694/index.htm"> Glassdoor </a></li>
+                            <li><a href="https://www.linkedin.com/in/jana-semenova-b29555112" target="_blank"> LinkedIN
+                                </a></li>
+                            <li><a href="https://www.xing.com/profile/Jana_Semenova2/cv" target="_blank"> XING </a></li>
+                            <li><a href="https://www.glassdoor.de/member/38169694/index.htm" target="_blank"> Glassdoor
+                                </a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -92,36 +100,35 @@
                             <li><a href="mailto:jana.semenova@gmx.de"> E-mail </a></li>
                         </ul>
                     </li>
-                    <li><a href="https://webkarte.herokuapp.com/"><img src="android-chrome-192x192.png" alt="logo"
-                                style="width:30px;height:30px"> Web Card </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><img src="android-chrome-192x192.png" alt="logo"></li>
+                    <li><a href="https://portefeuille.bitbucket.io/" target="_blank"> WebCard on Bitbucket</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <header class="jumbotron">
-        <!-- Main component for a primary marketing message or call to action -->
-        <div class="container">
-            <div class="row row-header">
-                <div class="col-xs-12 col-sm-12">
-                    <p style="padding:10px;"></p>
-                    <h1>Java & JavaScript Development</h1>
-                    <p style="padding:10px;"></p>
-                    <h2 id="title">Jana Semenova ° Portfolio & GitHub projects links</h2>
-                    <p style="padding:10px;"></p>
-                </div>
-            </div>
+        <!-- Page title -->
+        <div class="imageHolder">
+            <!-- Main title -->
+            <img src="images/fon.jpg" alt="fon">
+            <h1 class="otto">Java & JavaScript Development</h1>
+            <h1>Jana Semenova</h1>
+            <h2>Portfolio & projects links</h2>
+            <span id="JS"></span>
         </div>
     </header>
     <!--hr-->
     <div class="container">
-        <p style="padding:10px;"></p>
-        <div id="JS" class="row">
+        <!-- Portfolio links -->
+        <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <a href="https://gedachtnis.herokuapp.com/" target="_blank" title="Memory">
                     <div class="picture-holder">
                         <img src="https://gedachtnis.herokuapp.com/images/memory_321x241.png">
                         <h4>Javascript game @Memory</h4>
-                        <p>Project based on coursework "Interface development" by MIPT & Yandex</p>
+                        <p>Using Bootstrap3, jQuery, Node.js</p>
                     </div>
                 </a>
             </div>
@@ -130,18 +137,37 @@
                     <div class="picture-holder">
                         <img src="https://karpfen.herokuapp.com/images/fish_636x392.png">
                         <h4>Javascript game @Carp</h4>
-                        <p>Using jQuery and Bootstrap</p>
+                        <p>Using Bootstrap3, jQuery, Node.js</p>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <a href="https://wixhub.github.io/javascript_interface/gallery.html" target="_blank" title="Gallery">
+                <a href="https://lernspiele.herokuapp.com/" target="_blank" title="Deutsch LernSpiele">
                     <div class="picture-holder">
-                        <img src="https://wixhub.github.io/javascript_interface/images/gallery-529x270.png">
-                        <h4>Picture gallery</h4>
-                        <p>Using Lightbox and Bootstrap</p>
+                        <img src="https://lernspiele.herokuapp.com/images/lern-636x420.png">
+                        <h4>Javascript Deutsch Lernspiele</h4>
+                        <p>Using Bootstrap5, JSON, Node.js</p>
                     </div>
                 </a>
+            </div>
+            <div id="Re" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="https://swetik.bitbucket.io/" target="_blank" title="Swetlana Oeuvre">
+                    <div class="picture-holder">
+                        <img src="https://swetik.bitbucket.io/images/index-400x238.png">
+                        <h4>Site of an aspiring artist</h4>
+                        <p>Using Bootstrap5, JSON, Node.js</p>
+                    </div>
+                </a>
+            </div>
+            <div id="An" class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="picture-holder">
+                    <img src="images/David.png">
+                    <h4>Restaurant web application</h4>
+                    <a href="https://wixhub.github.io/fullstack_development/module5-solution/index.html" target="_blank"
+                        title="Ajax">Version 1: using Ajax, jQuery, JSON</a><br>
+                    <a href="https://wixhub.github.io/fullstack_development/AngularJS/Module5/index.html/"
+                        target="_blank" title="Angular">Version 2: using Angular, Node.js</a>
+                </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <a href="https://wixhub.github.io/fullstack_development/module2-solution/index.html" target="_blank"
@@ -164,12 +190,11 @@
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                <a href="https://wixhub.github.io/fullstack_development/module5-solution/index.html" target="_blank"
-                    title="Restaurant">
+                <a href="https://wixhub.github.io/javascript_interface/gallery.html" target="_blank" title="Gallery">
                     <div class="picture-holder">
-                        <img src="images/David.png">
-                        <h4>Restaurant web application</h4>
-                        <p>Project with real data. Using Ajax, jQuery, JSON</p>
+                        <img src="https://wixhub.github.io/javascript_interface/images/gallery-529x270.png">
+                        <h4>Picture gallery</h4>
+                        <p>Using Lightbox and Bootstrap</p>
                     </div>
                 </a>
             </div>
@@ -202,17 +227,18 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-12 col-md-6 col-sm-6 col-xs-12">
-                <a href="#main-content" target="_blank" title="Block">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" title="Block">
                     <div class="picture-holder square-img">
                         <img src="android-chrome-512x512.png">
                         <h4><span class="glyphicon glyphicon-arrow-up"></span>TOP<span
                                 class="glyphicon glyphicon-arrow-up"></span> page </h4>
                         <p>Java & JavaScript & CSS3 animation</p>
+                        <p>© Copyright 2021 Jana Semenova</p>
                     </div>
                 </a>
             </div>
-        </div><!-- End of row -->
+        </div><!-- End of row Portfolio links -->
     </div><!-- End of container -->
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-2.1.4.min.js"></script>

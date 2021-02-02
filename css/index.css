@@ -1,24 +1,264 @@
-/* GLOBAL STYLES */
-* {
-    box-sizing: border-box;
+/* SPECIFIC STYLES */
+
+html, body {
+   
+    background: #FC8D05;
+    background: -webkit-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: -moz-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
 }
 
-body, html { 
-    height: 100%;
-    font-family: 'Oxygen', sans-serif;
-    background-color: #f0cea1;
+body {
+    padding: 60px 0px 0px 0px;
+    z-index: 0;
 }
 
-a {
-    text-decoration: none;
+.div {
+    text-align: center;
 }
-a:hover { text-decoration: none; }
+
+/* row style */
 
 .row {
     text-align: center;
 }
 
-/* SPECIFIC STYLES */
+.row-header {
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.row-footer {
+    background-color: rgb(175, 175, 175, 0.4);
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*** end row style ***/
+
+/* top menu */
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 8px;
+}
+
+#btn {
+    clear: both;
+    margin-top: 8px;
+}
+
+.nav a {
+    color: #A62F00;
+}
+
+.navbar {
+    background: #FC8D05;
+    background: -webkit-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: -moz-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    padding: 10px 0px 10px 0px;
+}
+
+/* home link */
+.navbar .navbar-nav>.active>a:hover, .navbar .navbar-nav>.active>a:focus {
+    color: #fcad38;
+    background: #fcfbab;
+    border-radius: 10px;
+}
+
+/* home link */
+.navbar .navbar-nav>.active>a, .navbar .navbar-nav>.active>a:visited {
+    -webkit-text-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+    text-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+}
+
+/* other links */
+.nav>li>a:hover, .nav>a:focus {
+    color: #fcad38;
+    background: #fcfbab;
+    border-radius: 10px;
+}
+
+/* other links click */
+.navbar .navbar-nav>.open>a, .navbar .navbar-nav>.open>a:hover, .navbar .navbar-nav>.open>a:focus {
+    color: #fff;
+    background: #fcce64;
+    border-radius: 10px;
+}
+
+.navbar .navbar-nav .open .dropdown-menu>li>a, .navbar .navbar-nav .open .dropdown-menu {
+    color: #fcce64;
+    background-color: #A62F00;
+    border-radius: 10px;
+}
+
+.navbar .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #A62F00;
+    background: #fcce64;
+    border-radius: 10px;
+}
+
+ul li img {
+    margin: 12px 0px 0px 0px;
+    width: 28px;
+    height: 28px;
+}
+
+ul li i {
+    margin: 8px 0px 0px 0px;
+    -webkit-text-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+    text-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+}
+
+.yellow-color {
+    color: #fcfcac;
+}
+
+.dropdown-header {
+    color: #fff;
+}
+
+/*** end top menu ***/
+
+/* Page title */
+
+.jumbotron {
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+}
+
+.jumbotron h1 {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.jumbotron h1:nth-of-type(2) {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.jumbotron h2 {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    font-size: bold;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.jumbotron span {
+    position: absolute;
+    text-align: center;
+    top: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.imageHolder {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    /* IE 6 */
+    overflow: hidden;
+}
+
+.imageHolder img {
+    width: 100%;
+}
+
+.otto {
+    font: bold;
+    font-family: "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
+    color: white;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+/*** end Page title ***/
+
+/* Portfolio */
+
+.picture-holder {
+    width: 340px;
+    height: 320px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
+    color: #A62F00;
+    overflow: hidden;
+    text-align: center;
+    background: #FCFCAC;
+    background: -webkit-linear-gradient(bottom, #FCCE64, #FC8E06);
+    background: -moz-linear-gradient(bottom, #FCCE64, #FC8E06);
+    background: linear-gradient(to top, #FCCE64, #FC8E06);
+}
+
+.picture-holder a {
+    color: #A62F00;
+}
+
+.picture-holder:hover {
+    background: #FC8D05;
+    background: -webkit-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: -moz-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+}
+
+.picture-holder h4 {
+    font-weight: bold;
+}
+
+.picture-holder img {
+    margin-top: 16px;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.square-img img {
+    margin-top: 16px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+/*** end Portfolio ***/
+
+/* Print text */
+
 .cell {
     width: 315px;
 }
@@ -37,12 +277,12 @@ a:hover { text-decoration: none; }
     padding-right: 10px;
 }
 
-.vertiсal { 
-    width: 1ch; 
-    text-align: center; 
+.vertiсal {
+    width: 1ch;
+    text-align: center;
     font-family: monospace, ui-monospace;
-    color: #FF4900; 
-    font-size: 2.2em; 
+    color: #FF4900;
+    font-size: 2.2em;
     word-wrap: break-word;
 }
 
@@ -53,14 +293,17 @@ a:hover { text-decoration: none; }
     font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
     font-weight: bold;
     font-size: 3.2em;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 2px solid rgb(95, 72, 28); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 4px ; /* Adjust as needed */
-    animation: 
-    typing1 1s steps(4, end),
-    blink-caret 1s step-end forwards;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 2px solid rgb(95, 72, 28);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 4px;
+    /* Adjust as needed */
+    animation: typing1 1s steps(4, end), blink-caret 1s step-end forwards;
 }
 
 .typewriter2 {
@@ -70,36 +313,45 @@ a:hover { text-decoration: none; }
     font-family: "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace, ui-monospace;
     font-weight: bold;
     font-size: 3.3em;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 3px solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: 8px ; /* Adjust as needed */
-    animation: 
-    typing2 1s steps(8, end),
-    go-down 1s linear forwards,
-    blink-caret 1s step-end forwards;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 3px solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 8px;
+    /* Adjust as needed */
+    animation: typing2 1s steps(8, end), go-down 1s linear forwards, blink-caret 1s step-end forwards;
 }
 
-.typewriter1::first-letter
-{
+.typewriter1::first-letter {
     color: #FF9200;
 }
 
-.typewriter2::first-letter
-{
+.typewriter2::first-letter {
     color: #FF9200;
 }
 
 /* The typing effect */
+
 @keyframes typing1 {
-    from { width: 0 }
-    to { width: 4ch }
+    from {
+        width: 0
+    }
+    to {
+        width: 4ch
+    }
 }
 
 @keyframes typing2 {
-    from { width: 0 }
-    to { width: 8ch }
+    from {
+        width: 0
+    }
+    to {
+        width: 8ch
+    }
 }
 
 @keyframes go-down {
@@ -112,9 +364,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_AVA {
-    animation: 
-    go-AVA 1s linear forwards,
-    blink-AVA .5s linear forwards;
+    animation: go-AVA 1s linear forwards, blink-AVA .5s linear forwards;
 }
 
 @keyframes go-AVA {
@@ -129,10 +379,7 @@ a:hover { text-decoration: none; }
 
 .go_MENU {
     float: right;
-
-    animation: 
-    go-DATA 2s linear forwards,
-    blink-DATA .5s linear forwards;
+    animation: go-DATA 2s linear forwards, blink-DATA .5s linear forwards;
 }
 
 @keyframes go-DATA {
@@ -159,7 +406,7 @@ a:hover { text-decoration: none; }
 .rightpic {
     float: right;
     margin: 0;
-    display:block;
+    display: block;
 }
 
 .projectsMenu {
@@ -167,9 +414,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_DEV {
-    animation: 
-    go-DEV 1s linear forwards,
-    blink-DEV .5s linear forwards;
+    animation: go-DEV 1s linear forwards, blink-DEV .5s linear forwards;
 }
 
 @keyframes go-DEV {
@@ -183,9 +428,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_CRIPT {
-    animation: 
-    go-CRIPT 1s linear forwards,
-    blink-CRIPT .5s linear forwards;
+    animation: go-CRIPT 1s linear forwards, blink-CRIPT .5s linear forwards;
 }
 
 @keyframes go-CRIPT {
@@ -199,9 +442,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_LOPER {
-    animation: 
-    go-LOPER 1s linear forwards,
-    blink-LOPER .5s linear forwards;
+    animation: go-LOPER 1s linear forwards, blink-LOPER .5s linear forwards;
 }
 
 @keyframes go-LOPER {
@@ -215,9 +456,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_PORTAL {
-    animation: 
-    go-PORTAL 1s linear forwards,
-    blink-PORTAL .5s linear forwards;
+    animation: go-PORTAL 1s linear forwards, blink-PORTAL .5s linear forwards;
 }
 
 @keyframes go-PORTAL {
@@ -231,9 +470,7 @@ a:hover { text-decoration: none; }
 }
 
 .go_ACT {
-    animation: 
-    go-ACT 1s linear forwards,
-    blink-ACT .5s linear forwards;
+    animation: go-ACT 1s linear forwards, blink-ACT .5s linear forwards;
 }
 
 @keyframes go-ACT {
@@ -245,12 +482,18 @@ a:hover { text-decoration: none; }
         transform: none;
     }
 }
+
 /*end*/
 
 /* The typewriter cursor effect */
+
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
 }
 
 .contactLink {
@@ -262,18 +505,15 @@ a:hover { text-decoration: none; }
     color: #FF4900;
     font-size: 1.1em;
     font-weight: bold;
-    animation: 
-    go-contact 1s linear forwards,
-    blink-contact .5s linear forwards;
+    animation: go-contact 1s linear forwards, blink-contact .5s linear forwards;
 }
+
 .convert::after {
     content: '\2709';
     color: #FF4900;
     font-size: 3.6em;
     text-shadow: 1px 1px 3px #FF4900;
-    animation: 
-    go-contact 1s linear forwards,
-    blink-contact .5s linear forwards;
+    animation: go-contact 1s linear forwards, blink-contact .5s linear forwards;
 }
 
 @keyframes go-contact {
@@ -286,33 +526,84 @@ a:hover { text-decoration: none; }
     }
 }
 
-/* GALLERY */
-.picture-holder {
-    width: 340px;
-    height: 320px;
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    border-radius: 25px;
-    background-color: #FF9200;
-    overflow: hidden;
-    text-align: center;
-    color: #A62F00;
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+    .jumbotron {
+        padding: 0px 0px 0px 0px;
+        margin: 0px auto;
+    }
+    .row {
+        margin-top: 30px;
+    }
+    .buttom-footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
 }
-.picture-holder h4 {
-    font-weight: bold;
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .jumbotron {
+        padding: 0px 0px 0px 0px;
+        margin: 100px auto;
+    }
+    .row {
+        margin-top: 30px;
+    }
 }
-.picture-holder img {
-    margin-top: 16px;
-    border-radius: 25px;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Page */
+    .jumbotron {
+        padding: 0px 0px 0px 0px;
+        margin: 100px auto;
+    }
+    .row {
+        margin-top: 10px;
+    }
+    .picture-holder {
+        height: 330px;
+    }
+    /* End Page */
 }
-.square-img img {
-    margin-top: 16px;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+
+/********** Extra small devices only **********/
+
+@media (max-width: 767px) {
+    .row {
+        margin-top: 0px;
+    }
+    .picture-holder {
+        height: 330px;
+    }
+}
+
+/********** Super extra small devices Only (e.g., iPhone 4) **********/
+
+@media (max-width: 479px) {
+    /* Header */
+    .jumbotron {
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    /* End Header */
+    /* Page */
+    .row {
+        margin-top: 30px;
+    }
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+    /* END Page */
 }
