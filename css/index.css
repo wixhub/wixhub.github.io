@@ -1,7 +1,6 @@
 /* SPECIFIC STYLES */
 
 html, body {
-   
     background: #FC8D05;
     background: -webkit-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
     background: -moz-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
@@ -69,6 +68,7 @@ body {
 }
 
 /* home link */
+
 .navbar .navbar-nav>.active>a:hover, .navbar .navbar-nav>.active>a:focus {
     color: #fcad38;
     background: #fcfbab;
@@ -82,6 +82,7 @@ body {
 }
 
 /* other links */
+
 .nav>li>a:hover, .nav>a:focus, .navbar .navbar-nav>a:visited {
     color: #fcad38;
     background: #fcfbab;
@@ -89,6 +90,7 @@ body {
 }
 
 /* other links click */
+
 .navbar .navbar-nav>.open>a, .navbar .navbar-nav>.open>a:hover, .navbar .navbar-nav>.open>a:focus {
     color: #fff;
     background: #fcce64;
@@ -209,6 +211,7 @@ ul li i {
 .picture-holder {
     width: 340px;
     height: 320px;
+    position: relative;
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -253,6 +256,21 @@ ul li i {
     width: 200px;
     height: 200px;
     overflow: hidden;
+}
+
+.on, .unde {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 6px;
+    left: 20px;
+    z-index: 10;
+}
+
+.unde {
+    top: 35%;
+    left: 5%;
+    font: 1.5em sans-serif;
 }
 
 /*** end Portfolio ***/
