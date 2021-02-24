@@ -544,6 +544,11 @@ ul li i {
     }
 }
 
+.picture-holder .btn {
+    color: rgb(252, 253, 198);
+    font-weight: bold;
+}
+
 /********** Large devices only **********/
 
 @media (min-width: 1200px) {
