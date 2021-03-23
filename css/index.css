@@ -1,10 +1,10 @@
 /* SPECIFIC STYLES */
 
 html, body {
-    background: #FC8D05;
-    background: -webkit-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: #FCCE64;
+    /* background: -webkit-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
     background: -moz-linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
-    background: linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%);
+    background: linear-gradient(to top, #FC8D05 0%, #FCCE64 50%, #FC8D05 100%); */
 }
 
 body {
