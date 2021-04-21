@@ -617,6 +617,11 @@ ul li i {
     border-radius: 20px;
 }
 
+.panel-footer img {
+    width: 300px;
+    overflow: hidden;
+}
+
 /* end footer */
 
 /********** Large devices only **********/
