@@ -729,7 +729,7 @@ ul li img {
     }
     /* End Header */
     .row {
-        margin: 0px 0px 0px -10px;
+        margin: 0px 0px 0px -20px;
     }
     .picture-holder {
         height: 330px;
@@ -747,7 +747,7 @@ ul li img {
         position: relative;
         min-height: 1px;
         padding-right: 15px;
-        padding-left: 15px;
+        padding-left: 0px;
         float: left;
         width: 100%;
     }
