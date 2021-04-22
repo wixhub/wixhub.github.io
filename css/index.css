@@ -8,7 +8,8 @@ html, body {
 }
 
 body {
-    padding: 60px 0px 700px 0px;
+    padding: 60px 0px 200px 0px;
+    font-size: 100%;
 }
 
 .div {
@@ -138,7 +139,6 @@ ul li i {
     padding: 0px 0px 0px 0px;
     text-align: center;
     width: 100%;
-    height: 300px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
     box-shadow: 0px 10px 13px -7px #000000, -1px 0px 1px 19px rgba(166, 47, 0, 0);
 }
@@ -147,6 +147,7 @@ ul li i {
     position: absolute;
     text-align: center;
     top: 10%;
+    font-size: 4em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -157,6 +158,7 @@ ul li i {
     position: absolute;
     text-align: center;
     top: 40%;
+    font-size: 2em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -168,7 +170,7 @@ ul li i {
     position: absolute;
     text-align: center;
     top: 70%;
-    font-size: bold;
+    font-size: 2em;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -191,7 +193,6 @@ ul li i {
     position: relative;
     text-align: center;
     width: 100%;
-    height: 300px;
     /* IE 6 */
     overflow: hidden;
 }
@@ -609,11 +610,8 @@ ul li i {
 
 .panel-footer {
     left: 0;
-    bottom: 0;
-    width: 100%;
     background: #FFFFFF;
     text-align: center;
-    line-height: 100px;
     border-radius: 20px;
 }
 
@@ -630,36 +628,67 @@ ul li i {
     .jumbotron {
         padding: 0px 0px 0px 0px;
         margin: 0px auto;
+        height: 300px;
+    }
+    .imageHolder {
+        height: 300px;
     }
     .row {
         margin-top: 15px;
     }
-    .buttom-footer {
-        width: 100%;
-        position: absolute;
+    .panel-footer {
         bottom: 0;
     }
 }
 
 /********** Medium devices only **********/
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
     .jumbotron {
         padding: 0px 0px 0px 0px;
-        margin: 100px auto;
+        margin: 0px auto;
+        height: 300px;
+    }
+    .jumbotron h1 {
+        font-size: 3em;
+    }
+    .jumbotron h1:nth-of-type(2) {
+        font-size: 2em;
+    }
+    .jumbotron h2 {
+        font-size: 2em;
+    }
+    .imageHolder {
+        height: 300px;
     }
     .row {
         margin-top: 30px;
+    }
+    .panel-footer {
+        bottom: 0;
     }
 }
 
 /********** Small devices only **********/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
     /* Page */
     .jumbotron {
         padding: 0px 0px 0px 0px;
-        margin: 100px auto;
+        margin: 30px auto;
+        height: 300px;
+    }
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+    .jumbotron h1:nth-of-type(2) {
+        font-size: 1.5em;
+    }
+    .jumbotron h2 {
+        font-size: 1.3em;
+    }
+    .imageHolder {
+        height: 300px;
     }
     .row {
         margin-top: 10px;
@@ -667,34 +696,51 @@ ul li i {
     .picture-holder {
         height: 330px;
     }
+    .panel-footer {
+        bottom: 0;
+    }
     /* End Page */
 }
 
 /********** Extra small devices only **********/
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    /* Header */
+    .jumbotron {
+        width: 100%;
+        padding: 0px;
+        margin: 15px 0 20px 0;
+    }
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+    .jumbotron h1:nth-of-type(2) {
+        top: 50%;
+        font-size: 1.5em;
+    }
+    .jumbotron h2 {
+        font-size: 1.3em;
+    }
+    .imageHolder {
+        width: 100%;
+        height: 250px;
+    }
+    /* End Header */
     .row {
         margin-top: 0px;
     }
     .picture-holder {
         height: 330px;
     }
+    .panel-footer {
+        margin: 0 0 20px 0;
+    }
 }
 
 /********** Super extra small devices Only (e.g., iPhone 4) **********/
 
 @media (max-width: 479px) {
-    /* Header */
-    .jumbotron {
-        padding-bottom: 0px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-    }
-    /* End Header */
     /* Page */
-    .row {
-        margin-top: 30px;
-    }
     .col-xxs-12 {
         position: relative;
         min-height: 1px;
