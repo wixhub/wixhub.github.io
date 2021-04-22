@@ -20,6 +20,7 @@ body {
 
 .row {
     text-align: center;
+    margin: 0px 0px 0px -5px;
 }
 
 .row-header {
@@ -662,7 +663,7 @@ ul li img {
         height: 250px;
     }
     .row {
-        margin-top: 30px;
+        margin: 20px 0px 0px -5px;
     }
     .panel-footer {
         bottom: 0;
@@ -710,7 +711,7 @@ ul li img {
     .jumbotron {
         width: 100%;
         padding: 0px;
-        margin: 15px 0 20px 0;
+        margin: 15px 0 40px 0;
     }
     .jumbotron h1 {
         font-size: 2em;
