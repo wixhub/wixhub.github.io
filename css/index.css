@@ -746,6 +746,11 @@ ul li img {
     .picture-holder {
         height: 330px;
     }
+
+    .row-footer {
+        margin: 0px 0px 20px -20px;
+        float: left;
+    }
     .panel-footer {
         width: 340px;
         margin: auto;
@@ -764,6 +769,10 @@ ul li img {
         padding-left: 0px;
         float: left;
         width: 100%;
+    }
+    .row-footer {
+        margin: 0px 0px 20px 10px;
+        background-color: #FCCE64;
     }
     /* END Page */
 }
