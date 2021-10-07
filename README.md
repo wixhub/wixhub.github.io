@@ -1,6 +1,6 @@
 Root rep
 
-##Java & JavaScript Development
+##Java & JavaScript Developer
 
 <a href="https://wixhub.github.io/" target="_blank" >My GitHub projects links</a>
 
