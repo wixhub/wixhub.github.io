@@ -1,6 +1,6 @@
-Root rep
+Root repository
 
-##Web Developer
+## Web Developer
 
 <a href="https://wixhub.github.io/" target="_blank" >My Portfolio | View</a>
 
