@@ -1,0 +1,74 @@
+* {
+  font-family: Trebuchet MS;
+  font-size: 12px;
+}
+
+.main-box {
+  width: 21cm;
+  height: 29.7cm;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+.vertical-1,
+.vertical-2,
+.column {
+  float: left;
+}
+
+.vertical-1 {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(212, 156, 117, 0.5);
+}
+
+.vertical-2 {
+  width: 70%;
+  height: 100%;
+  background-color: rgba(33, 56, 92, 0.2);
+}
+
+.section-name {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.section-title {
+  text-transform: uppercase;
+}
+
+.kursive {
+  font-style: italic;
+}
+
+.top {
+  height: 300px;
+}
+
+.heading {
+  padding: 0 20px 15px 20px;
+  background-color: rgba(212, 156, 117, 0.7);
+}
+
+.links {
+  padding: 5px 20px 1px 20px;
+  background-color: rgba(212, 156, 117, 0.3);
+}
+
+.education {
+  padding: 5px 20px 10px 20px;
+  background-color: rgba(212, 156, 117, 0.5);
+}
+
+.languages {
+  padding: 5px 20px 1px 20px;
+}
+
+.professional {
+  padding: 10px 20px 5px 20px;
+  background-color: rgba(33, 56, 92, 0.2);
+}
+
+.work {
+  padding: 5px 20px 1px 20px;
+}
