@@ -1,6 +1,6 @@
 Root repository
 
-## Web Developer
+## Web Applications
 
 <a href="https://wixhub.github.io/" target="_blank" >My Portfolio | View</a>
 
