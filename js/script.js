@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
         // 2. Fetch projects data from external JSON file
-        const response = await fetch('projects.json');
+        const response = await fetch('data/projects.json');
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);

@@ -59,7 +59,7 @@ a {
         to bottom, 
         rgba(30, 60, 114, 0.3),    
         rgba(30, 60, 114, 0.75)     
-    ), url('../images/fon.jpg') no-repeat center center;
+    ), url('../img/fon.jpg') no-repeat center center;
     background-size: cover;
     color: #ffffff;
     text-align: center;
