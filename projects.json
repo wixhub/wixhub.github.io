@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Psychophysiology",
+    "description": "Modern web application for psychophysiology research and applications",
+    "tags": ["Research", "Angular"],
+    "link": "https://psychophysiology.pages.dev"
+  },
+  {
+    "title": "Affective Sync",
+    "description": "Interactive application for affective synchronization",
+    "tags": ["Interactive", "Angular"],
+    "link": "https://affective-sync.pages.dev"
+  },
+  {
+    "title": "Bilateral Stimulation",
+    "description": "Therapeutic tool for bilateral stimulation processing",
+    "tags": ["Health", "Angular"],
+    "link": "https://bilateral-stimulation.pages.dev/"
+  },
+  {
+    "title": "Breathe Circle",
+    "description": "Relaxation and breathing pacing application",
+    "tags": ["Wellness", "Animation", "Angular"],
+    "link": "https://breathe-circle.pages.dev/"
+  },
+  {
+    "title": "Sonosphere",
+    "description": "Audio-visual interactive environment",
+    "tags": ["Audio", "Interactive", "Angular"],
+    "link": "https://sonosphere.pages.dev/"
+  },
+  {
+    "title": "Thought Shredder",
+    "description": "Digital tool for letting go of intrusive thoughts",
+    "tags": ["Mental Health", "Interactive", "Angular"],
+    "link": "https://thought-shredder.pages.dev/"
+  },
+  {
+    "title": "Grounding",
+    "description": "Interactive grounding techniques application",
+    "tags": ["Wellness", "Angular"],
+    "link": "https://grounding.pages.dev/"
+  },
+  {
+    "title": "Emotion Chart",
+    "description": "Tool for mapping and tracking emotional states",
+    "tags": ["Tracking", "Health", "Angular"],
+    "link": "https://emotion-chart.pages.dev/"
+  },
+  {
+    "title": "FullStack Web Applications",
+    "description": "User Authentication, MultiLingual, CrossBrowser. Features Angular 11 & React 17 front-ends with a Node.js/MongoDB backend",
+    "tags": ["Angular", "React", "Node.js", "MongoDB"],
+    "link": "https://swetik.bitbucket.io/"
+  },
+  {
+    "title": "SAP Web Applications",
+    "description": "Integration of SAP UI5 Web Components with modern frameworks (React, Angular) and OData services",
+    "tags": ["SAP UI5", "Fiori", "Angular", "React"],
+    "link": "https://angular-ui5.bitbucket.io/"
+  },
+  {
+    "title": "Georg Cubes",
+    "description": "Interactive 3D or conceptual cubes project",
+    "tags": ["Interactive", "Web App", "Angular"],
+    "link": "https://georg-cubes.pages.dev/"
+  },
+  {
+    "title": "JavaScript Games",
+    "description": "Browser game Memory",
+    "tags": ["JavaScript", "Games", "Bootstrap"],
+    "link": "https://js-spiele.bitbucket.io/memory/"
+  },
+  {
+    "title": "Canvas Games",
+    "description": "Simple JavaScript game Carp. Multilingual Guide",
+    "tags": ["JavaScript", "Games", "Bootstrap"],
+    "link": "https://js-spiele.bitbucket.io/carp/"
+  },
+  {
+    "title": "CSS3 Animations",
+    "description": "Pure CSS3 animations including a 50-second cycle cartoon ship and moving blocks",
+    "tags": ["CSS3", "Animation"],
+    "link": "https://css3-animation.bitbucket.io/ship/"
+  },
+  {
+    "title": "Mobile Compass",
+    "description": "Compass for mobile phones & tablets using Mobile Sensors",
+    "tags": ["Mobile", "Sensors", "JavaScript"],
+    "link": "https://wixhub.github.io/javascript_mobile/compass.html"
+  }
+]
