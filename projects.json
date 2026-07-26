@@ -1,92 +1,116 @@
 [
   {
     "title": "Psychophysiology",
-    "description": "Modern web application for psychophysiology research and applications",
-    "tags": ["Research", "Angular"],
+    "description": "A modern web application designed to support psychophysiological research and data analysis. It provides responsive, specialized tools for scientific exploration and clinical application.",
+    "tags": ["Research", "Full-Stack", "Angular", "Node.js", "MongoDB"],
     "link": "https://psychophysiology.pages.dev"
   },
   {
     "title": "Affective Sync",
-    "description": "Interactive application for affective synchronization",
-    "tags": ["Interactive", "Angular"],
+    "description": "An interactive application focused on affective synchronization to help users align and regulate their emotional responses. It delivers a real-time, engaging experience for emotional attunement.",
+    "tags": ["Mental Health", "Angular", "Interactive"],
     "link": "https://affective-sync.pages.dev"
   },
   {
     "title": "Bilateral Stimulation",
-    "description": "Therapeutic tool for bilateral stimulation processing",
-    "tags": ["Health", "Angular"],
+    "description": "A digital therapeutic tool offering bilateral stimulation techniques to assist with trauma processing and emotional regulation. It leverages a modern front-end to deliver a visually supportive user experience.",
+    "tags": ["Mental Health", "Angular", "Therapeutics"],
     "link": "https://bilateral-stimulation.pages.dev/"
   },
   {
     "title": "Breathe Circle",
-    "description": "Relaxation and breathing pacing application",
-    "tags": ["Wellness", "Animation", "Angular"],
+    "description": "A wellness application featuring animated visual guides to help users pace their breathing and achieve relaxation. It combines smooth CSS animations with a dynamic UI for a calming session.",
+    "tags": ["Mental Health", "Angular", "Animation"],
     "link": "https://breathe-circle.pages.dev/"
   },
   {
     "title": "Sonosphere",
-    "description": "Audio-visual interactive environment",
-    "tags": ["Audio", "Interactive", "Angular"],
+    "description": "An immersive audio-visual environment that allows users to interact dynamically with generated soundscapes and graphics. It utilizes modern web technologies to create a sensory-rich digital experience.",
+    "tags": ["Mental Health", "Angular", "Audio"],
     "link": "https://sonosphere.pages.dev/"
   },
   {
     "title": "Thought Shredder",
-    "description": "Digital tool for letting go of intrusive thoughts",
-    "tags": ["Mental Health", "Interactive", "Angular"],
+    "description": "A specialized mental health tool designed to help users symbolically let go of intrusive thoughts. It provides an engaging, interactive cognitive-behavioral exercise directly in the browser.",
+    "tags": ["Mental Health", "Angular", "Interactive"],
     "link": "https://thought-shredder.pages.dev/"
   },
   {
     "title": "Grounding",
-    "description": "Interactive grounding techniques application",
-    "tags": ["Wellness", "Angular"],
+    "description": "A digital wellness companion providing interactive grounding techniques for anxiety relief and mindfulness. The application guides users through sensory exercises using a highly responsive interface.",
+    "tags": ["Mental Health", "Angular", "Mindfulness"],
     "link": "https://grounding.pages.dev/"
   },
   {
     "title": "Emotion Chart",
-    "description": "Tool for mapping and tracking emotional states",
-    "tags": ["Tracking", "Health", "Angular"],
+    "description": "A health-focused tracking tool that allows users to map, log, and analyze their daily emotional states. It offers intuitive data visualization to monitor emotional well-being over time.",
+    "tags": ["Mental Health", "Angular", "Data Tracking"],
     "link": "https://emotion-chart.pages.dev/"
   },
   {
-    "title": "FullStack Web Applications",
-    "description": "User Authentication, MultiLingual, CrossBrowser. Features Angular 11 & React 17 front-ends with a Node.js/MongoDB backend",
-    "tags": ["Angular", "React", "Node.js", "MongoDB"],
+    "title": "FullStack Web Apps",
+    "description": "A comprehensive full-stack solution featuring secure user authentication, multilingual support, and cross-browser compatibility. It seamlessly integrates an Angular 11 front-end with a robust Node.js and MongoDB backend.",
+    "tags": ["Full-Stack", "Angular", "Node.js", "MongoDB"],
     "link": "https://swetik.bitbucket.io/"
   },
   {
-    "title": "SAP Web Applications",
-    "description": "Integration of SAP UI5 Web Components with modern frameworks (React, Angular) and OData services",
-    "tags": ["SAP UI5", "Fiori", "Angular", "React"],
+    "title": "FullStack Web Apps",
+    "description": "A scalable full-stack application offering secure authentication and dynamic multilingual capabilities. It pairs a component-driven React 17 front-end with a flexible Node.js and MongoDB architecture.",
+    "tags": ["Full-Stack", "React", "Node.js", "MongoDB"],
+    "link": "https://swetlik.bitbucket.io/"
+  },
+  {
+    "title": "SAP Web Apps",
+    "description": "An enterprise-grade application demonstrating the seamless integration of SAP UI5 Web Components within an Angular framework. It leverages OData services to handle complex corporate data effectively.",
+    "tags": ["Enterprise", "Angular", "SAP UI5"],
     "link": "https://angular-ui5.bitbucket.io/"
   },
   {
-    "title": "Georg Cubes",
-    "description": "Interactive 3D or conceptual cubes project",
-    "tags": ["Interactive", "Web App", "Angular"],
+    "title": "SAP Web Apps",
+    "description": "A corporate web application combining the component-driven architecture of React 17 with the robust UI5 Web Components library. It delivers a modern, scalable, and enterprise-ready user interface.",
+    "tags": ["Enterprise", "React", "SAP UI5"],
+    "link": "https://ui5-components.bitbucket.io/"
+  },
+  {
+    "title": "SAP Web Apps",
+    "description": "A specialized enterprise application focused on implementing SAP UI5 with robust JSON data binding for dynamic content rendering. It showcases efficient data handling and standard SAP UI patterns.",
+    "tags": ["Enterprise", "SAP UI5", "Data Binding"],
+    "link": "https://ui5-data-binding.bitbucket.io/webapp/"
+  },
+  {
+    "title": "SAP Web Apps",
+    "description": "An enterprise application built in strict adherence to SAP Fiori 3 design guidelines and integrated with backend OData services. It ensures a consistent, user-centric experience for business operations.",
+    "tags": ["Enterprise", "SAP Fiori", "OData"],
+    "link": "https://sap-fiori3.bitbucket.io/webapp/"
+  },
+  {
+    "title": "Georg Cubes Game",
+    "description": "An interactive, conceptual puzzle game based on manipulating digital cubes to solve spatial challenges. It offers a responsive and engaging browser-based 3D logic experience.",
+    "tags": ["Gaming", "Angular", "Interactive"],
     "link": "https://georg-cubes.pages.dev/"
   },
   {
-    "title": "JavaScript Games",
-    "description": "Browser game Memory",
-    "tags": ["JavaScript", "Games", "Bootstrap"],
+    "title": "Memory Game",
+    "description": "A classic browser-based memory matching game built entirely with vanilla JavaScript. It utilizes Bootstrap to ensure a clean, responsive layout across both desktop and mobile devices.",
+    "tags": ["Gaming", "Vanilla JS", "Logic"],
     "link": "https://js-spiele.bitbucket.io/memory/"
   },
   {
-    "title": "Canvas Games",
-    "description": "Simple JavaScript game Carp. Multilingual Guide",
-    "tags": ["JavaScript", "Games", "Bootstrap"],
+    "title": "Game Carp",
+    "description": "A lightweight, HTML5 Canvas-based 2D web game featuring a multilingual user guide for broader accessibility. It demonstrates the effective use of native browser APIs for rendering interactive gameplay.",
+    "tags": ["Gaming", "HTML5 Canvas", "Multilingual"],
     "link": "https://js-spiele.bitbucket.io/carp/"
   },
   {
-    "title": "CSS3 Animations",
-    "description": "Pure CSS3 animations including a 50-second cycle cartoon ship and moving blocks",
-    "tags": ["CSS3", "Animation"],
+    "title": "CSS3 Animation",
+    "description": "A creative visual project showcasing pure CSS3 capabilities through a complex, 50-second animated loop of a cartoon ship. It highlights advanced CSS keyframes and transitions without relying on JavaScript.",
+    "tags": ["Creative", "CSS3", "Animation"],
     "link": "https://css3-animation.bitbucket.io/ship/"
   },
   {
     "title": "Mobile Compass",
-    "description": "Compass for mobile phones & tablets using Mobile Sensors",
-    "tags": ["Mobile", "Sensors", "JavaScript"],
+    "description": "A practical mobile web utility that taps into device hardware sensors to function as a real-time compass. It utilizes vanilla JavaScript and Device Orientation APIs for accurate mobile and tablet support.",
+    "tags": ["Utility", "Vanilla JS", "Device Sensors"],
     "link": "https://wixhub.github.io/javascript_mobile/compass.html"
   }
 ]
