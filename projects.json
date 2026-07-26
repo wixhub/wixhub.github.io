@@ -84,10 +84,16 @@
     "link": "https://sap-fiori3.bitbucket.io/webapp/"
   },
   {
-    "title": "Georg Cubes Game",
+    "title": "Cubes Game",
     "description": "An interactive, conceptual puzzle game based on manipulating digital cubes to solve spatial challenges. It offers a responsive and engaging browser-based 3D logic experience.",
     "tags": ["Gaming", "Angular", "Interactive"],
     "link": "https://georg-cubes.pages.dev/"
+  },
+  {
+    "title": "Sand Box Game",
+    "description": "A custom-built sandbox game demonstrating scalable architecture and dynamic resource management. Features robust building mechanics and seamless player-driven environments.",
+    "tags": ["Gaming", "Angular", "Interactive"],
+    "link": "https://sand-game.pages.dev/"
   },
   {
     "title": "Memory Game",
