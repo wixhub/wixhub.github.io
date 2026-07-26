@@ -85,7 +85,7 @@
   },
   {
     "title": "Cubes Game",
-    "description": "An interactive, conceptual puzzle game based on manipulating digital cubes to solve spatial challenges. It offers a responsive and engaging browser-based 3D logic experience.",
+    "description": "An interactive, conceptual puzzle game based on manipulating digital cubes to solve spatial challenges. It offers a responsive and engaging browser-based 2D logic experience.",
     "tags": ["Gaming", "Angular", "Interactive"],
     "link": "https://georg-cubes.pages.dev/"
   },
