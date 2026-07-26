@@ -149,11 +149,11 @@ a {
 }
 
 .filter-btn {
-    background: rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    color: #ffffff;
+    color: var(--wave-dark);
     font-family: var(--font-body);
     font-size: 0.9rem;
     font-weight: 600;
@@ -230,7 +230,7 @@ a {
 
 .tag {
     background: rgba(255, 255, 255, 0.5);
-    color: var(--text-main);
+    color: var(--wave-dark);
     border: 1px solid rgba(255, 255, 255, 0.8);
     font-size: 0.75rem;
     font-weight: 700;
