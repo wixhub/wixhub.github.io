@@ -1,47 +1,54 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    // 1. Set current year in the footer
+    // Set current year in the footer
     const yearSpan = document.getElementById('current-year');
     if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
     }
 
-    const gridContainer = document.getElementById('projects-grid');
-    const filterContainer = document.getElementById('filter-container');
+    const projectsGrid = document.getElementById('projects-grid');
+    const certificatesGrid = document.getElementById('certificates-grid');
 
     try {
-        // 2. Fetch projects data from external JSON file
-        const response = await fetch('data/projects.json');
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
+        // Fetch projects and certificates data concurrently
+        const [projectsResponse, certificatesResponse] = await Promise.all([
+            fetch('data/projects.json'),
+            fetch('data/certificates.json')
+        ]);
+
+        if (!projectsResponse.ok || !certificatesResponse.ok) {
+            throw new Error('Failed to fetch portfolio data files.');
         }
-        
-        const projects = await response.json();
 
-        // 3. Initial render of all projects
-        renderProjects(projects, gridContainer);
+        const projects = await projectsResponse.json();
+        const certificates = await certificatesResponse.json();
 
-        // 4. Setup dynamic tags and multi-filtering
-        setupMultiFilters(projects, gridContainer, filterContainer);
+        // Render projects grid
+        renderProjects(projects, projectsGrid);
+
+        // Render certificates grid
+        renderCertificates(certificates, certificatesGrid);
 
     } catch (error) {
-        console.error("Failed to load projects:", error);
-        if (gridContainer) {
-            gridContainer.innerHTML = '<p style="color: white; grid-column: 1/-1; text-align: center;">Failed to load projects. Please try again later.</p>';
+        console.error("Error loading portfolio data:", error);
+        if (projectsGrid) {
+            projectsGrid.innerHTML = '<p class="error-message">Failed to load projects. Please try again later.</p>';
+        }
+        if (certificatesGrid) {
+            certificatesGrid.innerHTML = '<p class="error-message">Failed to load certificates. Please try again later.</p>';
         }
     }
 });
 
-// Render projects function
-function renderProjects(projectsToRender, container) {
+// Render projects into the DOM
+function renderProjects(projects, container) {
     container.innerHTML = '';
 
-    if (projectsToRender.length === 0) {
-        container.innerHTML = '<p style="color: white; grid-column: 1/-1; text-align: center;">No projects found for the selected tags.</p>';
+    if (!projects || projects.length === 0) {
+        container.innerHTML = '<p class="error-message">No projects available.</p>';
         return;
     }
 
-    projectsToRender.forEach(project => {
+    projects.forEach(project => {
         const card = document.createElement('article');
         card.className = 'card';
 
@@ -53,9 +60,9 @@ function renderProjects(projectsToRender, container) {
         desc.className = 'card-desc';
         desc.textContent = project.description;
 
+        // Render tags if available
         const tagsContainer = document.createElement('div');
         tagsContainer.className = 'tags';
-        
         if (project.tags && project.tags.length > 0) {
             project.tags.forEach(tagText => {
                 const tag = document.createElement('span');
@@ -65,87 +72,111 @@ function renderProjects(projectsToRender, container) {
             });
         }
 
-        const link = document.createElement('a');
-        link.className = 'card-link';
-        link.href = project.link;
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        link.textContent = 'View Project';
+        // Actions container for links
+        const actionsContainer = document.createElement('div');
+        actionsContainer.className = 'card-actions';
+
+        if (project.link) {
+            const link = document.createElement('a');
+            link.className = 'card-link';
+            link.href = project.link;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = 'View Project';
+            actionsContainer.appendChild(link);
+        }
+
+        if (project.codeUrl) {
+            const codeLink = document.createElement('a');
+            codeLink.className = 'card-link secondary';
+            codeLink.href = project.codeUrl;
+            codeLink.target = '_blank';
+            codeLink.rel = 'noopener noreferrer';
+            codeLink.textContent = 'Source Code';
+            actionsContainer.appendChild(codeLink);
+        }
 
         card.appendChild(title);
-        card.appendChild(tagsContainer);
+        if (project.tags && project.tags.length > 0) {
+            card.appendChild(tagsContainer);
+        }
         card.appendChild(desc);
-        card.appendChild(link);
+        if (actionsContainer.children.length > 0) {
+            card.appendChild(actionsContainer);
+        }
 
         container.appendChild(card);
     });
 }
 
-// Setup dynamic multi-selection filter buttons
-function setupMultiFilters(projects, container, filterContainer) {
-    // Extract all unique tags from projects
-    const allTagsSet = new Set();
-    projects.forEach(project => {
-        if (project.tags) {
-            project.tags.forEach(tag => allTagsSet.add(tag));
+// Render certificates into the DOM
+function renderCertificates(certificates, container) {
+    container.innerHTML = '';
+
+    if (!certificates || certificates.length === 0) {
+        container.innerHTML = '<p class="error-message">No certificates available.</p>';
+        return;
+    }
+
+    certificates.forEach(cert => {
+        const card = document.createElement('article');
+        card.className = 'card cert-card';
+
+        // Optional course/certificate icon
+        if (cert.iconUrl) {
+            const iconWrapper = document.createElement('div');
+            iconWrapper.className = 'cert-icon-wrapper';
+            const icon = document.createElement('img');
+            icon.src = cert.iconUrl;
+            icon.alt = cert.title;
+            icon.className = 'cert-icon';
+            iconWrapper.appendChild(icon);
+            card.appendChild(iconWrapper);
         }
-    });
 
-    const uniqueTags = ['All', ...Array.from(allTagsSet)];
+        const title = document.createElement('h4');
+        title.className = 'card-title';
+        title.textContent = cert.title;
 
-    // Clear the filter container first
-    filterContainer.innerHTML = '';
+        const instructor = document.createElement('p');
+        instructor.className = 'cert-instructor';
+        instructor.textContent = `Instructor: ${cert.instructor}`;
 
-    // Keep track of currently selected tags (store lowercase or exact strings)
-    let selectedTags = new Set();
+        const desc = document.createElement('p');
+        desc.className = 'card-desc';
+        desc.textContent = cert.description;
 
-    // Create buttons for each unique tag
-    uniqueTags.forEach((tag) => {
-        const btn = document.createElement('button');
-        btn.className = 'filter-btn';
-        if (tag === 'All') btn.classList.add('active'); // 'All' is active by default
-        btn.textContent = tag;
+        const actionsContainer = document.createElement('div');
+        actionsContainer.className = 'card-actions';
 
-        btn.addEventListener('click', () => {
-            const allBtn = filterContainer.querySelector('.filter-btn'); // First button is 'All'
+        if (cert.certificateUrl) {
+            const certLink = document.createElement('a');
+            certLink.className = 'card-link';
+            certLink.href = cert.certificateUrl;
+            certLink.target = '_blank';
+            certLink.rel = 'noopener noreferrer';
+            certLink.textContent = 'View Certificate';
+            actionsContainer.appendChild(certLink);
+        }
 
-            if (tag === 'All') {
-                // If 'All' is clicked, clear all selections and activate only 'All'
-                selectedTags.clear();
-                filterContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                allBtn.classList.add('active');
-                renderProjects(projects, container);
-                return;
-            }
+        if (cert.codeUrl) {
+            const codeLink = document.createElement('a');
+            codeLink.className = 'card-link secondary';
+            codeLink.href = cert.codeUrl;
+            codeLink.target = '_blank';
+            codeLink.rel = 'noopener noreferrer';
+            codeLink.textContent = 'Course Code';
+            actionsContainer.appendChild(codeLink);
+        }
 
-            // For regular tags, toggle selection
-            if (selectedTags.has(tag)) {
-                selectedTags.delete(tag);
-                btn.classList.remove('active');
-            } else {
-                selectedTags.add(tag);
-                btn.classList.add('active');
-            }
+        card.appendChild(title);
+        card.appendChild(instructor);
+        card.appendChild(desc);
+        
+        if (actionsContainer.children.length > 0) {
+            card.appendChild(actionsContainer);
+        }
 
-            // If no tags are selected anymore, fallback to 'All'
-            if (selectedTags.size === 0) {
-                allBtn.classList.add('active');
-                renderProjects(projects, container);
-            } else {
-                // Deselect 'All' when specific tags are chosen
-                allBtn.classList.remove('active');
-
-                // Filter projects: show project if it includes AT LEAST ONE of the selected tags (OR logic)
-                // If you want AND logic (project must contain ALL selected tags), change 'some' to 'every'
-                const filtered = projects.filter(project => {
-                    if (!project.tags) return false;
-                    return Array.from(selectedTags).some(selectedTag => project.tags.includes(selectedTag));
-                });
-
-                renderProjects(filtered, container);
-            }
-        });
-
-        filterContainer.appendChild(btn);
+        container.appendChild(card);
     });
 }

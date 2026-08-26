@@ -1,0 +1,200 @@
+[
+  {
+    "title": "NgRx (with NgRx Data) - The Complete Guide",
+    "description": "Learn the modern NgRx Ecosystem, including NgRx Data, Store, Effects, Router Store, Ngrx Entity and Dev Tools.",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-23180f28-b52b-48ff-9980-35cd39534715/",
+    "codeUrl": "https://github.com/wixhub/angular-ngrx",
+    "iconUrl": "https://angular-university.s3-us-west-1.amazonaws.com/course-images/ngrx-v2.png"
+  },
+  {
+    "title": "Angular Core Deep Dive",
+    "description": "A detailed walk-through of the most important part of Angular - the Core and Common modules.",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-46e42be0-8af3-48a2-aaf5-1d532efc54b2/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png"
+  },
+  {
+    "title": "RxJs In Practice Course",
+    "description": "Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples.",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-09463777-a04d-43dc-89c9-1d093e840f62/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png"
+  },
+  {
+    "title": "Angular Forms In Depth",
+    "description": "Build complex enterprise data forms with the powerful Angular 12 Forms module.",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-7600f7de-b654-4ab8-9263-966e17c3fa56/",
+    "codeUrl": "",
+    "iconUrl": "https://angular-university.s3-us-west-1.amazonaws.com/course-images/angular-forms-course-small.jpg"
+  },
+  {
+    "title": "Serverless Angular with Firebase Course",
+    "description": "Serveless Angular with Firestore, Firebase Storage & Hosting, Firebase Cloud Functions & AngularFire",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-8f62f547-93ed-40ec-8029-460bdcb95c66/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png"
+  },
+  {
+    "title": "Angular Testing Course",
+    "description": "In-depth guide to Unit Testing and E2E Testing of Angular Applications",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-3ea2967a-29c4-4f23-bb3b-0e6e32c3afc0/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png"
+  },
+  {
+    "title": "Angular Security Course - Web Security Fundamentals",
+    "description": "Learn Web Security Fundamentals and apply them to defend an Angular / Node Application from multiple types of attacks.",
+    "instructor": "Angular University",
+    "level": "ADVANCED",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-2f560a4e-160e-4d6b-b73a-f81f2089fc20/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png"
+  },
+  {
+    "title": "Angular PWA - Progressive Web Apps Course",
+    "description": "Learn Angular Progressive Web Applications, build the future of the Web Today.",
+    "instructor": "Angular University",
+    "level": "ADVANCED",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-8b0eccbc-d1ab-43ab-bbdc-1383f6d3ac33/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png"
+  },
+  {
+    "title": "Angular Advanced Library Laboratory: Build Your Own Library",
+    "description": "Learn Advanced Angular functionality typically used in Library Development. Advanced Components, Directives, Testing, Npm",
+    "instructor": "Angular University",
+    "level": "ADVANCED",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-897fb8aa-5f2c-4e17-a181-a247f68c1648/",
+    "codeUrl": "",
+    "iconUrl": "https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png"
+  },
+  {
+    "title": "The Complete Typescript Course",
+    "description": "Complete Guide to Typescript From Scratch: Learn the language in-depth and use it to build a Node REST API.",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-c93b960a-d1b4-4e3a-b3a4-8687856dc098/",
+    "codeUrl": "",
+    "iconUrl": "https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png"
+  },
+  {
+    "title": "Rxjs and Reactive Patterns Angular Architecture Course",
+    "description": "Learn the core RxJs Observable Pattern as well and many other Design Patterns for building Reactive Angular Applications.",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-581fd26d-a78f-470b-9676-bebb3cbed2e9/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png"
+  },
+  {
+    "title": "Angular Material Course",
+    "description": "Build Applications with the official Angular Widget Library",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-2394df33-c1a9-493b-bb3b-160308e413ce/",
+    "codeUrl": "",
+    "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/material_design.png"
+  },
+  {
+    "title": "NestJs in Practice (with MongoDB)",
+    "description": "It's like Angular but for the backend! Build a modern REST backend with Typescript and the familiar Angular API",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-cadb7de5-d094-4359-a307-c181523d24ab/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/2580082_66b1.jpg"
+  },
+  {
+    "title": "Stripe In Practice",
+    "description": "Build your own online eCommerce store and subscription membership website with Stripe, Firebase, Node & Express",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-a21f3ea4-3c1c-4938-9f51-e9625aa2d3ac/",
+    "codeUrl": "",
+    "iconUrl": "https://img-b.udemycdn.com/course/240x135/2668274_0e22.jpg"
+  },
+  {
+    "title": "Angular Router In Depth",
+    "description": "Build large-scale Angular 12 Single Page Applications (SPAs) with the powerful Angular Router",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-9e9deef5-74e4-45df-920f-efebefc1df5a/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/3202558_8ffd.jpg"
+  },
+  {
+    "title": "Angular Universal In Depth",
+    "description": "Learn Angular Universal (Angular 12), optimize your application performance, optimize it for SEO and Social Media",
+    "instructor": "Angular University",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-267e5260-0e32-46f4-8aac-1d55c3060c09/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/1572898_a931_3.jpg"
+  },
+  {
+    "title": "Angular Components - like a Pro! (Angular 2/4/5/6/7+)",
+    "description": "Master the Angular Components like a PRO to create technically brilliant components",
+    "instructor": "Enrique Oriol",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-2dc5ac70-a39a-484c-86f6-e299908b6ac6/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/1362782_0ea6.jpg"
+  },
+  {
+    "title": "Angular Architecture. How to Build Scalable Web Applications",
+    "description": "Build a scalable and maintainable applications with Angular 9 (NgRx, Firebase, SCSS, Angular Material)",
+    "instructor": "Danil Chigirev",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-029781f4-9a95-47c8-b894-244ecbe33223/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/2580974_d53e.jpg"
+  },
+  {
+    "title": "Learn Modern JavaScript: Getting Started",
+    "description": "JavaScript for Beginners; In Depth Training to truly Learn JavaScript; Gets You Started as a JavaScript Programmer",
+    "instructor": "Steven Hancock",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-6d0573c8-5314-42a6-9ee1-b995991572df/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/977810_501b_4.jpg"
+  },
+  {
+    "title": "Advanced JavaScript Topics",
+    "description": "In Depth JavaScript Training for Mastering Important Patterns, the Power of Functions, OOP Concepts, JavaScript Projects",
+    "instructor": "Steven Hancock",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-a940e985-0926-48e7-8302-9dc1791616c1/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/1072420_717d_5.jpg"
+  },
+  {
+    "title": "SASS - The Complete SASS Course (CSS Preprocessor)",
+    "description": "SASS - Learn SASS, the most popular CSS Extension. Build modern and beautiful projects using SASS and lots of CSS",
+    "instructor": "Code And Create",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-d61285be-e0dc-487c-8556-355b2523affc/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/2031086_e14b_2.jpg"
+  },
+  {
+    "title": "Angular Styling & Animations",
+    "description": "Learn how to use dynamic Styles and powerful Animations to create beautiful Angular Apps",
+    "instructor": "Maximilian Schwarzmüller",
+    "level": "BEGINNER",
+    "certificateUrl": "https://www.udemy.com/certificate/UC-831db65b-c856-456a-8186-04875d7ad65a/",
+    "codeUrl": "",
+    "iconUrl": "https://img-c.udemycdn.com/course/240x135/1145430_68e5.jpg"
+  }
+]

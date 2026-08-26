@@ -6,13 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Portfolio" />
+    <meta property="og:title" content="@wixhub Portfolio" />
     <meta property="og:site_name" content="Portfolio" />
     <meta property="og:url" content="https://wixhub.github.io/" />
-    <meta property="og:description" content="Portfolio" />
-    <meta name="description" content="Portfolio" />
+    <meta
+      property="og:description"
+      content="Professional portfolio featuring projects and certifications."
+    />
+    <meta
+      name="description"
+      content="Professional portfolio featuring projects and certifications."
+    />
 
-    <!-- Favicon & Manifest Links (Updated paths) -->
+    <!-- Favicon Links -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -33,15 +39,15 @@
     <link rel="icon" href="img/favicon.ico" />
     <link rel="manifest" href="img/site.webmanifest" />
 
-    <title>@wixhub Projects</title>
+    <title>@wixhub Portfolio</title>
 
-    <!-- Modern FontAwesome for Icons -->
+    <!-- FontAwesome for Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
-    <!-- Google Fonts for warm, modern typography -->
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap"
       rel="stylesheet"
@@ -51,27 +57,35 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Header Section -->
+    <!-- Professional Header Section -->
     <header class="hero">
       <div class="hero-content">
-        <h2>@wixhub Projects</h2>
+        <h2>
+          <a href="https://github.com/wixhub" target="_blank">@wixhub</a>
+        </h2>
+        <h2>Research Software Engineer Creations</h2>
         <p>
-          Bridging robust backend architecture with intuitive, high-performance
-          frontend experiences to deliver high-impact digital products
+          Transforming complex scientific concepts into high-performance,
+          production-ready software systems
         </p>
       </div>
     </header>
 
-    <!-- Main Content for Projects -->
+    <!-- Main Content Container -->
     <main class="container">
-      <section class="container">
-        <!-- Dynamic filter tags container -->
-        <div id="filter-container" class="filter-container">
-          <!-- Filter buttons will be generated here automatically by script.js -->
-        </div>
-
+      <!-- Projects Section -->
+      <section class="portfolio-section">
+        <h3 class="section-title">Projects</h3>
         <div class="grid" id="projects-grid">
           <!-- Project cards will be loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- Certificates Section -->
+      <section class="portfolio-section">
+        <h3 class="section-title">Certificates & Courses</h3>
+        <div class="grid" id="certificates-grid">
+          <!-- Certificate cards will be loaded dynamically -->
         </div>
       </section>
     </main>
