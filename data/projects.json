@@ -1,5 +1,13 @@
 [
   {
+    "title": "Spec Builder",
+    "description": "Professional specification wizard for configuring hierarchical Movebank telemetry parameters and JSON schemas, featuring real-time data volume calculations processed in a background Web Worker.",
+    "tags": ["Research", "Angular", "Web Workers"],
+    "link": "https://eco-spec.pages.dev/",
+    "codeUrl": "https://github.com/wixhub/eco-spec",
+    "iconUrl": ""
+  },
+  {
     "title": "Metadata Harvester",
     "description": "Enterprise-grade metadata ingestion pipeline & REST gateway for ecological research data management built with Java, Spring Boot, Angular and Docker.",
     "tags": [
@@ -8,6 +16,8 @@
       "Full-Stack",
       "Java",
       "Spring Boot",
+      "Angular",
+      "PostgreSQL",
       "Docker"
     ],
     "link": "https://metadata-harvester.pages.dev",
@@ -15,9 +25,9 @@
     "iconUrl": ""
   },
   {
-    "title": "Movebank Explorer Web",
+    "title": "Movebank Explorer",
     "description": "Responsive frontend prototype for research data repositories, integrated with backend services for the MoveRDM ecosystem using modern Angular and TypeScript.",
-    "tags": ["Research", "Frontend", "Angular", "TypeScript", "REST API"],
+    "tags": ["Research", "Angular", "TypeScript", "REST API"],
     "link": "https://movebank-explorer-web.pages.dev",
     "codeUrl": "https://github.com/wixhub/movebank-explorer-web",
     "iconUrl": ""
@@ -118,17 +128,9 @@
   },
   {
     "title": "Creative Space & Gallery",
-    "description": "A comprehensive full-stack solution featuring secure user authentication, multilingual support and cross-browser compatibility. It seamlessly integrates an Angular 11 front-end with a robust Node.js and MongoDB backend.",
+    "description": "A comprehensive full-stack solution featuring secure user authentication, multilingual support and cross-browser compatibility. It seamlessly integrates an Angular 22 frontend and MongoDB backend.",
     "tags": ["Full-Stack", "Angular", "Node.js", "MongoDB"],
-    "link": "https://swetik.bitbucket.io/",
-    "codeUrl": "",
-    "iconUrl": ""
-  },
-  {
-    "title": "Young Artist's Portfolio",
-    "description": "A scalable full-stack application offering secure authentication and dynamic multilingual capabilities. It pairs a component-driven React 17 front-end with a flexible Node.js and MongoDB architecture.",
-    "tags": ["Full-Stack", "React", "Node.js", "MongoDB"],
-    "link": "https://swetlik.bitbucket.io/",
+    "link": "https://swetlana.pages.dev/",
     "codeUrl": "",
     "iconUrl": ""
   },
