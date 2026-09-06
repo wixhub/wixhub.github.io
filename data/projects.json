@@ -28,7 +28,7 @@
     "title": "Movebank Explorer",
     "description": "Responsive frontend prototype for research data repositories, integrated with backend services for the MoveRDM ecosystem using modern Angular and TypeScript.",
     "tags": ["Research", "Angular", "TypeScript", "REST API"],
-    "link": "https://movebank-explorer-web.pages.dev",
+    "link": "https://movebank-explorer.pages.dev",
     "codeUrl": "https://github.com/wixhub/movebank-explorer-web",
     "iconUrl": ""
   },
