@@ -1,5 +1,21 @@
 [
   {
+    "title": "Med Vision Inspector",
+    "description": "Interactive clinical-grade XAI web application for biomedical image inspection and attention map generation, featuring dynamic source attribution, reactive state management with Angular Signals and a Python/PyTorch inference backend.",
+    "tags": [
+      "Research",
+      "Angular",
+      "Full-Stack",
+      "Python",
+      "PyTorch",
+      "FastAPI",
+      "XAI"
+    ],
+    "link": "https://vision-inspector.pages.dev/",
+    "codeUrl": "https://github.com/wixhub/med-vision-inspector",
+    "iconUrl": ""
+  },
+  {
     "title": "Spec Builder",
     "description": "Professional specification wizard for configuring hierarchical Movebank telemetry parameters and JSON schemas, featuring real-time data volume calculations processed in a background Web Worker.",
     "tags": ["Research", "Angular", "Web Workers"],
