@@ -16,6 +16,6 @@ This repository showcases enterprise-grade projects, scientific data pipelines a
 
 ## 🔗 Connect & Demo
 
-🌐 Portfolio & Demos: [wixhub.github.io](wixhub.github.io)
+🌐 Portfolio & Demos: [wixhub.github.io](https://wixhub.github.io)
 
 🐙 GitHub Profile: [@wixhub](https://github.com/wixhub)
