@@ -1,6 +1,6 @@
 [
   {
-    "title": "NgRx (with NgRx Data) - The Complete Guide",
+    "title": "NgRx with NgRx Data",
     "description": "Learn the modern NgRx Ecosystem, including NgRx Data, Store, Effects, Router Store, Ngrx Entity and Dev Tools.",
     "instructor": "Angular University",
     "level": "BEGINNER",
@@ -18,7 +18,7 @@
     "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png"
   },
   {
-    "title": "RxJs In Practice Course",
+    "title": "RxJs In Practice",
     "description": "Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples.",
     "instructor": "Angular University",
     "level": "BEGINNER",
@@ -36,7 +36,7 @@
     "iconUrl": "https://angular-university.s3-us-west-1.amazonaws.com/course-images/angular-forms-course-small.jpg"
   },
   {
-    "title": "Serverless Angular with Firebase Course",
+    "title": "Serverless Angular with Firebase",
     "description": "Serveless Angular with Firestore, Firebase Storage & Hosting, Firebase Cloud Functions & AngularFire",
     "instructor": "Angular University",
     "level": "BEGINNER",
@@ -45,7 +45,7 @@
     "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png"
   },
   {
-    "title": "Angular Testing Course",
+    "title": "Angular Testing",
     "description": "In-depth guide to Unit Testing and E2E Testing of Angular Applications",
     "instructor": "Angular University",
     "level": "BEGINNER",
@@ -54,7 +54,7 @@
     "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png"
   },
   {
-    "title": "Angular Security Course - Web Security Fundamentals",
+    "title": "Angular Web Security Fundamentals",
     "description": "Learn Web Security Fundamentals and apply them to defend an Angular / Node Application from multiple types of attacks.",
     "instructor": "Angular University",
     "level": "ADVANCED",
@@ -63,7 +63,7 @@
     "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png"
   },
   {
-    "title": "Angular PWA - Progressive Web Apps Course",
+    "title": "Angular Progressive Web Apps",
     "description": "Learn Angular Progressive Web Applications, build the future of the Web Today.",
     "instructor": "Angular University",
     "level": "ADVANCED",
@@ -72,7 +72,7 @@
     "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png"
   },
   {
-    "title": "Angular Advanced Library Laboratory: Build Your Own Library",
+    "title": "Angular Advanced Library Laboratory",
     "description": "Learn Advanced Angular functionality typically used in Library Development. Advanced Components, Directives, Testing, Npm",
     "instructor": "Angular University",
     "level": "ADVANCED",
@@ -90,7 +90,7 @@
     "iconUrl": "https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png"
   },
   {
-    "title": "Rxjs and Reactive Patterns Angular Architecture Course",
+    "title": "Rxjs and Reactive Patterns Angular Architecture",
     "description": "Learn the core RxJs Observable Pattern as well and many other Design Patterns for building Reactive Angular Applications.",
     "instructor": "Angular University",
     "level": "BEGINNER",
@@ -108,7 +108,7 @@
     "iconUrl": "https://s3-us-west-1.amazonaws.com/angular-university/course-images/material_design.png"
   },
   {
-    "title": "NestJs in Practice (with MongoDB)",
+    "title": "NestJs in Practice with MongoDB",
     "description": "It's like Angular but for the backend! Build a modern REST backend with Typescript and the familiar Angular API",
     "instructor": "Angular University",
     "level": "BEGINNER",
@@ -123,7 +123,7 @@
     "level": "BEGINNER",
     "certificateUrl": "https://www.udemy.com/certificate/UC-a21f3ea4-3c1c-4938-9f51-e9625aa2d3ac/",
     "codeUrl": "",
-    "iconUrl": "https://img-b.udemycdn.com/course/240x135/2668274_0e22.jpg"
+    "iconUrl": "https://wixhub.github.io/img/stripe.jpg"
   },
   {
     "title": "Angular Router In Depth",
@@ -144,7 +144,7 @@
     "iconUrl": "https://img-c.udemycdn.com/course/240x135/1572898_a931_3.jpg"
   },
   {
-    "title": "Angular Components - like a Pro! (Angular 2/4/5/6/7+)",
+    "title": "Angular Components",
     "description": "Master the Angular Components like a PRO to create technically brilliant components",
     "instructor": "Enrique Oriol",
     "level": "BEGINNER",
@@ -153,7 +153,7 @@
     "iconUrl": "https://img-c.udemycdn.com/course/240x135/1362782_0ea6.jpg"
   },
   {
-    "title": "Angular Architecture. How to Build Scalable Web Applications",
+    "title": "Angular Architecture",
     "description": "Build a scalable and maintainable applications with Angular 9 (NgRx, Firebase, SCSS, Angular Material)",
     "instructor": "Danil Chigirev",
     "level": "BEGINNER",
@@ -162,7 +162,7 @@
     "iconUrl": "https://img-c.udemycdn.com/course/240x135/2580974_d53e.jpg"
   },
   {
-    "title": "Learn Modern JavaScript: Getting Started",
+    "title": "Learn Modern JavaScript",
     "description": "JavaScript for Beginners; In Depth Training to truly Learn JavaScript; Gets You Started as a JavaScript Programmer",
     "instructor": "Steven Hancock",
     "level": "BEGINNER",
@@ -180,8 +180,8 @@
     "iconUrl": "https://img-c.udemycdn.com/course/240x135/1072420_717d_5.jpg"
   },
   {
-    "title": "SASS - The Complete SASS Course (CSS Preprocessor)",
-    "description": "SASS - Learn SASS, the most popular CSS Extension. Build modern and beautiful projects using SASS and lots of CSS",
+    "title": "The Complete SASS Course. CSS Preprocessor",
+    "description": "SASS - the most popular CSS Extension. Build modern and beautiful projects using SASS and lots of CSS",
     "instructor": "Code And Create",
     "level": "BEGINNER",
     "certificateUrl": "https://www.udemy.com/certificate/UC-d61285be-e0dc-487c-8556-355b2523affc/",

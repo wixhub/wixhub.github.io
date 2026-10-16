@@ -5,7 +5,7 @@
     "tags": ["C++20", "WebAssembly", "Angular", "Three.js", "Full-Stack"],
     "link": "https://point-cloud.pages.dev/",
     "codeUrl": "https://github.com/wixhub/WasmPointCloud",
-    "iconUrl": "👁️"
+    "icon": "👁️"
   },
   {
     "title": "Med Vision Inspector",
@@ -21,7 +21,7 @@
     ],
     "link": "https://vision-inspector.pages.dev/",
     "codeUrl": "https://github.com/wixhub/med-vision-inspector",
-    "iconUrl": "👁️"
+    "icon": "👁️"
   },
   {
     "title": "Micro Expression Engine",
@@ -29,7 +29,7 @@
     "tags": ["C++20", "WebAssembly", "Angular", "Computer Vision"],
     "link": "https://facs-engine.pages.dev/",
     "codeUrl": "https://github.com/wixhub/facs",
-    "iconUrl": "🎭"
+    "icon": "🎭"
   },
   {
     "title": "Affective Synchronization",
@@ -37,7 +37,7 @@
     "tags": ["Mental Health", "Angular", "MediaPipe", "ECharts"],
     "link": "https://affective-sync.pages.dev",
     "codeUrl": "https://github.com/wixhub/AffectiveSync",
-    "iconUrl": "👁️"
+    "icon": "👁️"
   },
   {
     "title": "Spec Builder",
@@ -45,7 +45,7 @@
     "tags": ["Research", "Angular", "Web Workers"],
     "link": "https://eco-spec.pages.dev/",
     "codeUrl": "https://github.com/wixhub/eco-spec",
-    "iconUrl": "🌎"
+    "icon": "🌎"
   },
   {
     "title": "Metadata Harvester",
@@ -62,7 +62,7 @@
     ],
     "link": "https://metadata-harvester.pages.dev",
     "codeUrl": "https://github.com/wixhub/metadata-harvester",
-    "iconUrl": "🌎"
+    "icon": "🌎"
   },
   {
     "title": "Movebank Explorer",
@@ -70,7 +70,7 @@
     "tags": ["Research", "Angular", "TypeScript", "REST API"],
     "link": "https://movebank-explorer.pages.dev",
     "codeUrl": "https://github.com/wixhub/movebank-explorer-web",
-    "iconUrl": "🌎"
+    "icon": "🌎"
   },
   {
     "title": "Spatial Temporal",
@@ -78,7 +78,7 @@
     "tags": ["GIS", "Visualization", "Telemetry", "Frontend", "Performance"],
     "link": "https://spatial-temporal.pages.dev",
     "codeUrl": "https://github.com/wixhub/spatial-temporal",
-    "iconUrl": ""
+    "icon": "🌎"
   },
   {
     "title": "Sensor Streams",
@@ -92,7 +92,7 @@
     ],
     "link": "https://sensor-streams.pages.dev",
     "codeUrl": "https://github.com/wixhub/sensor-streams",
-    "iconUrl": "🌎"
+    "icon": "🌎"
   },
   {
     "title": "Bio Stream",
@@ -100,7 +100,7 @@
     "tags": ["Rendering", "Spatial", "Tracking", "Graphics", "Optimization"],
     "link": "https://bio-stream.pages.dev",
     "codeUrl": "https://github.com/wixhub/bio-stream",
-    "iconUrl": "🌎"
+    "icon": "🌎"
   },
   {
     "title": "Data Curation",
@@ -108,7 +108,7 @@
     "tags": ["Utility", "Research", "Data Curation", "Tools", "Validation"],
     "link": "https://data-curation.pages.dev",
     "codeUrl": "https://github.com/wixhub/data-curation",
-    "iconUrl": "🌎"
+    "icon": "🌎"
   },
   {
     "title": "Bilateral Stimulation",
@@ -116,7 +116,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://bilateral-stimulation.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧘"
+    "icon": "🧘"
   },
   {
     "title": "Breathe Circle",
@@ -124,7 +124,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://breathe-circle.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧘"
+    "icon": "🧘"
   },
   {
     "title": "Sonosphere",
@@ -132,7 +132,7 @@
     "tags": ["Mental Health", "Angular", "Audio"],
     "link": "https://sonosphere.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧘"
+    "icon": "🧘"
   },
   {
     "title": "Thought Shredder",
@@ -140,7 +140,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://thought-shredder.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧘"
+    "icon": "🧘"
   },
   {
     "title": "Grounding",
@@ -148,7 +148,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://grounding.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧘"
+    "icon": "🧘"
   },
   {
     "title": "Emotion Chart",
@@ -156,7 +156,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://emotion-chart.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧘"
+    "icon": "🧘"
   },
   {
     "title": "Creative Space & Gallery",
@@ -164,7 +164,7 @@
     "tags": ["Full-Stack", "Angular", "Node.js", "MongoDB"],
     "link": "https://swetlana.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🏆"
+    "icon": "🏆"
   },
   {
     "title": "Enterprise SAP UI5 Dashboard",
@@ -172,7 +172,7 @@
     "tags": ["SAP UI5", "Angular"],
     "link": "https://angular-ui5.bitbucket.io/",
     "codeUrl": "",
-    "iconUrl": "🐦‍🔥"
+    "icon": "🐦‍🔥"
   },
   {
     "title": "Corporate UI5 Component Showcase",
@@ -180,7 +180,7 @@
     "tags": ["SAP UI5", "React"],
     "link": "https://ui5-components.bitbucket.io/",
     "codeUrl": "",
-    "iconUrl": "🐦‍🔥"
+    "icon": "🐦‍🔥"
   },
   {
     "title": "UI5 Portal",
@@ -188,7 +188,7 @@
     "tags": ["SAP UI5", "Data Binding"],
     "link": "https://ui5-data-binding.bitbucket.io/webapp/",
     "codeUrl": "",
-    "iconUrl": "🐦‍🔥"
+    "icon": "🐦‍🔥"
   },
   {
     "title": "Business Operations Hub",
@@ -196,7 +196,7 @@
     "tags": ["SAP Fiori", "OData"],
     "link": "https://sap-fiori3.bitbucket.io/webapp/",
     "codeUrl": "",
-    "iconUrl": "🐦‍🔥"
+    "icon": "🐦‍🔥"
   },
   {
     "title": "Cubes Game",
@@ -204,7 +204,7 @@
     "tags": ["Gaming", "Angular", "Interactive"],
     "link": "https://georg-cubes.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧙🏿‍♀️"
+    "icon": "🧙🏿‍♀️"
   },
   {
     "title": "Sand Box Game",
@@ -212,7 +212,7 @@
     "tags": ["Gaming", "Angular"],
     "link": "https://sand-game.pages.dev/",
     "codeUrl": "",
-    "iconUrl": "🧙🏿‍♀️"
+    "icon": "🧙🏿‍♀️"
   },
   {
     "title": "Memory Game",
@@ -220,7 +220,7 @@
     "tags": ["Gaming", "Vanilla JS"],
     "link": "https://js-spiele.bitbucket.io/memory/",
     "codeUrl": "",
-    "iconUrl": "🧙🏿‍♀️"
+    "icon": "🧙🏿‍♀️"
   },
   {
     "title": "Carp Game",
@@ -228,7 +228,7 @@
     "tags": ["Gaming", "HTML5 Canvas", "Multilingual"],
     "link": "https://js-spiele.bitbucket.io/carp/",
     "codeUrl": "",
-    "iconUrl": "🧙🏿‍♀️"
+    "icon": "🧙🏿‍♀️"
   },
   {
     "title": "CSS3 Animation",
@@ -236,14 +236,14 @@
     "tags": ["Creative", "CSS3", "Animation"],
     "link": "https://css3-animation.bitbucket.io/ship/",
     "codeUrl": "",
-    "iconUrl": "🧙🏿‍♀️"
+    "icon": "🧙🏿‍♀️"
   },
   {
-    "title": "Mobile Compass",
+    "_title": "Mobile Compass",
     "description": "A practical mobile web utility that taps into device hardware sensors to function as a real-time compass. It utilizes vanilla JavaScript and Device Orientation APIs for accurate mobile and tablet support.",
     "tags": ["Utility", "Vanilla JS", "Device Sensors"],
     "link": "https://wixhub.github.io/javascript_mobile/compass.html",
     "codeUrl": "",
-    "iconUrl": "🧙🏿‍♀️"
+    "icon": "🧙🏿‍♀️"
   }
 ]
