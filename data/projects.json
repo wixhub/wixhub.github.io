@@ -1,5 +1,13 @@
 [
   {
+    "title": "Wasm Point Cloud Engine",
+    "description": "A high-performance 3D point cloud rendering and spatial downsampling web application. Powered by a C++20 backend compiled to WebAssembly (WASM) with non-destructive filtering, integrated into an Angular frontend via Signals and Three.js.",
+    "tags": ["C++20", "WebAssembly", "Angular", "Three.js", "Full-Stack"],
+    "link": "https://point-cloud.pages.dev/",
+    "codeUrl": "https://github.com/wixhub/WasmPointCloud",
+    "iconUrl": "👁️"
+  },
+  {
     "title": "Med Vision Inspector",
     "description": "Interactive clinical-grade XAI web application for biomedical image inspection and attention map generation, featuring dynamic source attribution, reactive state management with Angular Signals and a Python/PyTorch inference backend.",
     "tags": [
@@ -13,7 +21,23 @@
     ],
     "link": "https://vision-inspector.pages.dev/",
     "codeUrl": "https://github.com/wixhub/med-vision-inspector",
-    "iconUrl": ""
+    "iconUrl": "👁️"
+  },
+  {
+    "title": "Micro Expression Engine",
+    "description": "A high-performance, real-time facial telemetry and micro-expression analysis web application. The core detection engine is written in C++20, compiled to WebAssembly (WASM) via Emscripten and Ninja, and integrated into a modern Angular frontend using Signals and reactive components.",
+    "tags": ["C++20", "WebAssembly", "Angular", "Computer Vision"],
+    "link": "https://facs-engine.pages.dev/",
+    "codeUrl": "https://github.com/wixhub/facs",
+    "iconUrl": "🎭"
+  },
+  {
+    "title": "Affective Synchronization",
+    "description": "An interactive application focused on affective synchronization to help users align and regulate their emotional responses. It delivers a real-time, engaging experience for emotional attunement.",
+    "tags": ["Mental Health", "Angular", "MediaPipe", "ECharts"],
+    "link": "https://affective-sync.pages.dev",
+    "codeUrl": "https://github.com/wixhub/AffectiveSync",
+    "iconUrl": "👁️"
   },
   {
     "title": "Spec Builder",
@@ -21,7 +45,7 @@
     "tags": ["Research", "Angular", "Web Workers"],
     "link": "https://eco-spec.pages.dev/",
     "codeUrl": "https://github.com/wixhub/eco-spec",
-    "iconUrl": ""
+    "iconUrl": "🌎"
   },
   {
     "title": "Metadata Harvester",
@@ -38,7 +62,7 @@
     ],
     "link": "https://metadata-harvester.pages.dev",
     "codeUrl": "https://github.com/wixhub/metadata-harvester",
-    "iconUrl": ""
+    "iconUrl": "🌎"
   },
   {
     "title": "Movebank Explorer",
@@ -46,7 +70,7 @@
     "tags": ["Research", "Angular", "TypeScript", "REST API"],
     "link": "https://movebank-explorer.pages.dev",
     "codeUrl": "https://github.com/wixhub/movebank-explorer-web",
-    "iconUrl": ""
+    "iconUrl": "🌎"
   },
   {
     "title": "Spatial Temporal",
@@ -68,7 +92,7 @@
     ],
     "link": "https://sensor-streams.pages.dev",
     "codeUrl": "https://github.com/wixhub/sensor-streams",
-    "iconUrl": ""
+    "iconUrl": "🌎"
   },
   {
     "title": "Bio Stream",
@@ -76,7 +100,7 @@
     "tags": ["Rendering", "Spatial", "Tracking", "Graphics", "Optimization"],
     "link": "https://bio-stream.pages.dev",
     "codeUrl": "https://github.com/wixhub/bio-stream",
-    "iconUrl": ""
+    "iconUrl": "🌎"
   },
   {
     "title": "Data Curation",
@@ -84,15 +108,7 @@
     "tags": ["Utility", "Research", "Data Curation", "Tools", "Validation"],
     "link": "https://data-curation.pages.dev",
     "codeUrl": "https://github.com/wixhub/data-curation",
-    "iconUrl": ""
-  },
-  {
-    "title": "Affective Sync",
-    "description": "An interactive application focused on affective synchronization to help users align and regulate their emotional responses. It delivers a real-time, engaging experience for emotional attunement.",
-    "tags": ["Mental Health", "Angular"],
-    "link": "https://affective-sync.pages.dev",
-    "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🌎"
   },
   {
     "title": "Bilateral Stimulation",
@@ -100,7 +116,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://bilateral-stimulation.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧘"
   },
   {
     "title": "Breathe Circle",
@@ -108,7 +124,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://breathe-circle.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧘"
   },
   {
     "title": "Sonosphere",
@@ -116,7 +132,7 @@
     "tags": ["Mental Health", "Angular", "Audio"],
     "link": "https://sonosphere.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧘"
   },
   {
     "title": "Thought Shredder",
@@ -124,7 +140,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://thought-shredder.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧘"
   },
   {
     "title": "Grounding",
@@ -132,7 +148,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://grounding.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧘"
   },
   {
     "title": "Emotion Chart",
@@ -140,15 +156,7 @@
     "tags": ["Mental Health", "Angular"],
     "link": "https://emotion-chart.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
-  },
-  {
-    "title": "FACS Micro-Expression Analyzer",
-    "description": "Interactive real-time web application for facial emotion tracking and FACS Action Units telemetry, featuring high-performance C++ WebAssembly inference, MediaPipe computer vision mesh extraction, reactive state management with Angular Signals, and dual stream sources (webcam and demo video).",
-    "tags": ["WebAssembly", "C++", "MediaPipe", "Computer Vision", "Angular"],
-    "link": "https://facs-engine.pages.dev",
-    "codeUrl": "https://github.com/wixhub/facs",
-    "iconUrl": ""
+    "iconUrl": "🧘"
   },
   {
     "title": "Creative Space & Gallery",
@@ -156,7 +164,7 @@
     "tags": ["Full-Stack", "Angular", "Node.js", "MongoDB"],
     "link": "https://swetlana.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🏆"
   },
   {
     "title": "Enterprise SAP UI5 Dashboard",
@@ -164,7 +172,7 @@
     "tags": ["SAP UI5", "Angular"],
     "link": "https://angular-ui5.bitbucket.io/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🐦‍🔥"
   },
   {
     "title": "Corporate UI5 Component Showcase",
@@ -172,7 +180,7 @@
     "tags": ["SAP UI5", "React"],
     "link": "https://ui5-components.bitbucket.io/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🐦‍🔥"
   },
   {
     "title": "UI5 Portal",
@@ -180,7 +188,7 @@
     "tags": ["SAP UI5", "Data Binding"],
     "link": "https://ui5-data-binding.bitbucket.io/webapp/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🐦‍🔥"
   },
   {
     "title": "Business Operations Hub",
@@ -188,7 +196,7 @@
     "tags": ["SAP Fiori", "OData"],
     "link": "https://sap-fiori3.bitbucket.io/webapp/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🐦‍🔥"
   },
   {
     "title": "Cubes Game",
@@ -196,7 +204,7 @@
     "tags": ["Gaming", "Angular", "Interactive"],
     "link": "https://georg-cubes.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧙🏿‍♀️"
   },
   {
     "title": "Sand Box Game",
@@ -204,7 +212,7 @@
     "tags": ["Gaming", "Angular"],
     "link": "https://sand-game.pages.dev/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧙🏿‍♀️"
   },
   {
     "title": "Memory Game",
@@ -212,7 +220,7 @@
     "tags": ["Gaming", "Vanilla JS"],
     "link": "https://js-spiele.bitbucket.io/memory/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧙🏿‍♀️"
   },
   {
     "title": "Carp Game",
@@ -220,7 +228,7 @@
     "tags": ["Gaming", "HTML5 Canvas", "Multilingual"],
     "link": "https://js-spiele.bitbucket.io/carp/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧙🏿‍♀️"
   },
   {
     "title": "CSS3 Animation",
@@ -228,7 +236,7 @@
     "tags": ["Creative", "CSS3", "Animation"],
     "link": "https://css3-animation.bitbucket.io/ship/",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧙🏿‍♀️"
   },
   {
     "title": "Mobile Compass",
@@ -236,6 +244,6 @@
     "tags": ["Utility", "Vanilla JS", "Device Sensors"],
     "link": "https://wixhub.github.io/javascript_mobile/compass.html",
     "codeUrl": "",
-    "iconUrl": ""
+    "iconUrl": "🧙🏿‍♀️"
   }
 ]
