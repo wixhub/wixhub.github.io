@@ -145,8 +145,11 @@ function renderCertificates(certificates, container) {
         const header = document.createElement('div');
         header.className = 'card-header';
 
-        const title = document.createElement('h4');
+        const title = document.createElement('a');
         title.className = 'card-title';
+        title.href = cert.courseUrl;
+        title.target = '_blank';
+        title.rel = 'noopener noreferrer';
         title.textContent = cert.title;
         header.appendChild(title);
 
@@ -162,8 +165,11 @@ function renderCertificates(certificates, container) {
             header.appendChild(iconWrapper);
         }
 
-        const instructor = document.createElement('p');
+        const instructor = document.createElement('a');
         instructor.className = 'cert-instructor';
+        instructor.href = cert.courseUrl;
+        instructor.target = '_blank';
+        instructor.rel = 'noopener noreferrer';
         instructor.textContent = `Instructor: ${cert.instructor}`;
 
         const desc = document.createElement('p');
