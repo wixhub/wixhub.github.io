@@ -48,13 +48,29 @@ function renderProjects(projects, container) {
         return;
     }
 
-    projects.forEach(project => {
+    projects
+        .filter(project => project.title)
+        .forEach(project => {
+            
         const card = document.createElement('article');
         card.className = 'card';
+
+        // Render card header
+        const header = document.createElement('div');
+        header.className = 'card-header';
 
         const title = document.createElement('h4');
         title.className = 'card-title';
         title.textContent = project.title;
+        header.appendChild(title);
+
+        // Optional project icon
+        if (project.icon) {
+            const iconWrapper = document.createElement('span');
+            iconWrapper.textContent = project.icon;
+            iconWrapper.className = 'card-icon';
+            header.appendChild(iconWrapper);
+        }
 
         const desc = document.createElement('p');
         desc.className = 'card-desc';
@@ -82,7 +98,7 @@ function renderProjects(projects, container) {
             link.href = project.link;
             link.target = '_blank';
             link.rel = 'noopener noreferrer';
-            link.textContent = 'View Project';
+            link.textContent = 'Live Demo';
             actionsContainer.appendChild(link);
         }
 
@@ -96,11 +112,14 @@ function renderProjects(projects, container) {
             actionsContainer.appendChild(codeLink);
         }
 
-        card.appendChild(title);
+        card.appendChild(header);
+
         if (project.tags && project.tags.length > 0) {
             card.appendChild(tagsContainer);
         }
+
         card.appendChild(desc);
+
         if (actionsContainer.children.length > 0) {
             card.appendChild(actionsContainer);
         }
@@ -122,6 +141,15 @@ function renderCertificates(certificates, container) {
         const card = document.createElement('article');
         card.className = 'card cert-card';
 
+        // Render card header
+        const header = document.createElement('div');
+        header.className = 'card-header';
+
+        const title = document.createElement('h4');
+        title.className = 'card-title';
+        title.textContent = cert.title;
+        header.appendChild(title);
+
         // Optional course/certificate icon
         if (cert.iconUrl) {
             const iconWrapper = document.createElement('div');
@@ -131,12 +159,8 @@ function renderCertificates(certificates, container) {
             icon.alt = cert.title;
             icon.className = 'cert-icon';
             iconWrapper.appendChild(icon);
-            card.appendChild(iconWrapper);
+            header.appendChild(iconWrapper);
         }
-
-        const title = document.createElement('h4');
-        title.className = 'card-title';
-        title.textContent = cert.title;
 
         const instructor = document.createElement('p');
         instructor.className = 'cert-instructor';
@@ -169,7 +193,7 @@ function renderCertificates(certificates, container) {
             actionsContainer.appendChild(codeLink);
         }
 
-        card.appendChild(title);
+        card.appendChild(header);
         card.appendChild(instructor);
         card.appendChild(desc);
         
